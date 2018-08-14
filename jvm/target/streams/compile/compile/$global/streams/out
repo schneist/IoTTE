@@ -1,0 +1,4 @@
+[0m[[0m[31merror[0m] [0m[0mC:\REPO\IoTTE\shared\src\main\scala\dsl\interpreter\MarshalledTaskInterpreter.scala:29:7: in class MarshalledTaskInterpreter, multiple overloaded alternatives of method Fold define default arguments.[0m
+[0m[[0m[31merror[0m] [0m[0mThe members with defaults are defined in class MarshalledTaskInterpreter in package interpreter and trait MarshalledOperation in package elements.[0m
+[0m[[0m[31merror[0m] [0m[0mclass MarshalledTaskInterpreter[RuntimeEncoding]  extends TaskInterpreter with  MarshalledOperation[Task] {[0m
+[0m[[0m[31merror[0m] [0m[0m      ^[0m

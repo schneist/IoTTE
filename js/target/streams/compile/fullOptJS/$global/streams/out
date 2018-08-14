@@ -1,0 +1,19 @@
+[0m[[0m[0minfo[0m] [0m[0mFull optimizing C:\REPO\IoTTE\js\target\scala-2.12\iotte-opt.js[0m
+[0m[[0m[0mdebug[0m] [0m[0mLinker: Compute reachability: 843378 us[0m
+[0m[[0m[0mdebug[0m] [0m[0mLinker: Assemble LinkedClasses: 2068920 us[0m
+[0m[[0m[0mdebug[0m] [0m[0mBasic Linking: 2960432 us[0m
+[0m[[0m[0mdebug[0m] [0m[0mInc. optimizer: Batch mode: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mInc. optimizer: Incremental part: 400501 us[0m
+[0m[[0m[0mdebug[0m] [0m[0mInc. optimizer: Optimizing 5400 methods.[0m
+[0m[[0m[0mdebug[0m] [0m[0mInc. optimizer: Optimizer part: 4157015 us[0m
+[0m[[0m[0mdebug[0m] [0m[0mInc. optimizer: 4598196 us[0m
+[0m[[0m[0mdebug[0m] [0m[0mRefiner: Compute reachability: 384314 us[0m
+[0m[[0m[0mdebug[0m] [0m[0mRefiner: Assemble LinkedClasses: 82080 us[0m
+[0m[[0m[0mdebug[0m] [0m[0mRefiner: 474381 us[0m
+[0m[[0m[0mdebug[0m] [0m[0mEmitter: Class tree cache stats: reused: 510 -- invalidated: 524[0m
+[0m[[0m[0mdebug[0m] [0m[0mEmitter: Method tree cache stats: resued: 0 -- invalidated: 1929[0m
+[0m[[0m[0mdebug[0m] [0m[0mEmitter (create Closure trees): 3335206 us[0m
+[0m[[0m[0minfo[0m] [0m[0mClosure: 0 error(s), 0 warning(s)[0m
+[0m[[0m[0mdebug[0m] [0m[0mClosure: Compiler pass: 21757649 us[0m
+[0m[[0m[0mdebug[0m] [0m[0mClosure: Write result: 1306268 us[0m
+[0m[[0m[0mdebug[0m] [0m[0mGlobal IR cache stats: reused: 0 -- invalidated: 45 -- trees read: 862[0m

@@ -1,0 +1,16 @@
+[0m[[0m[0minfo[0m] [0m[0mFast optimizing C:\REPO\IoTTE\js\target\scala-2.12\iotte-fastopt.js[0m
+[0m[[0m[0mdebug[0m] [0m[0mLinker: Compute reachability: 1805783 us[0m
+[0m[[0m[0mdebug[0m] [0m[0mLinker: Assemble LinkedClasses: 1126420 us[0m
+[0m[[0m[0mdebug[0m] [0m[0mBasic Linking: 2959268 us[0m
+[0m[[0m[0mdebug[0m] [0m[0mInc. optimizer: Batch mode: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mInc. optimizer: Incremental part: 377981 us[0m
+[0m[[0m[0mdebug[0m] [0m[0mInc. optimizer: Optimizing 14635 methods.[0m
+[0m[[0m[0mdebug[0m] [0m[0mInc. optimizer: Optimizer part: 5051037 us[0m
+[0m[[0m[0mdebug[0m] [0m[0mInc. optimizer: 5456372 us[0m
+[0m[[0m[0mdebug[0m] [0m[0mRefiner: Compute reachability: 642216 us[0m
+[0m[[0m[0mdebug[0m] [0m[0mRefiner: Assemble LinkedClasses: 33205 us[0m
+[0m[[0m[0mdebug[0m] [0m[0mRefiner: 699092 us[0m
+[0m[[0m[0mdebug[0m] [0m[0mEmitter: Class tree cache stats: reused: 1361 -- invalidated: 1376[0m
+[0m[[0m[0mdebug[0m] [0m[0mEmitter: Method tree cache stats: resued: 0 -- invalidated: 7826[0m
+[0m[[0m[0mdebug[0m] [0m[0mEmitter (write output): 2598394 us[0m
+[0m[[0m[0mdebug[0m] [0m[0mGlobal IR cache stats: reused: 0 -- invalidated: 55 -- trees read: 1722[0m

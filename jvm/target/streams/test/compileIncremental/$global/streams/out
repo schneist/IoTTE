@@ -1,0 +1,66 @@
+[0m[[0m[0mdebug[0m] [0m[0mThe runners.MapRunner has the following regular definitions changed:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	UsedName(R,[Default]), UsedName(run,[Default]).[0m
+[0m[[0m[0mdebug[0m] [0m[0mAll member reference dependencies will be considered within this context.[0m
+[0m[[0m[0mdebug[0m] [0m[0mFiles invalidated by inheriting from (external) runners.MapRunner: Set(); now invalidating by inheritance (internally).[0m
+[0m[[0m[0mdebug[0m] [0m[0mGetting direct dependencies of all classes transitively invalidated by inheritance.[0m
+[0m[[0m[0mdebug[0m] [0m[0mGetting classes that directly depend on (external) runners.MapRunner.[0m
+[0m[[0m[0mdebug[0m] [0m[0mThe following modified names cause invalidation of dsl.ElementsCompilerTest: Set(UsedName(R,[Default]), UsedName(run,[Default]))[0m
+[0m[[0m[0mdebug[0m] [0m[0mThe dsl.elements.Marshalling$ has the following implicit definitions changed:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	UsedName(identityMarshalling,[Implicit]), UsedName(chainedMarshalling,[Implicit]).[0m
+[0m[[0m[0mdebug[0m] [0m[0mAll member reference dependencies will be considered within this context.[0m
+[0m[[0m[0mdebug[0m] [0m[0mFiles invalidated by inheriting from (external) dsl.elements.Marshalling$: Set(); now invalidating by inheritance (internally).[0m
+[0m[[0m[0mdebug[0m] [0m[0mGetting direct dependencies of all classes transitively invalidated by inheritance.[0m
+[0m[[0m[0mdebug[0m] [0m[0mGetting classes that directly depend on (external) dsl.elements.Marshalling$.[0m
+[0m[[0m[0mdebug[0m] [0m[0mThe following member ref dependencies of dsl.elements.Marshalling$ are invalidated:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	dsl.ElementsCompilerTest[0m
+[0m[[0m[0mdebug[0m] [0m[0mThe dsl.elements.MarshalledOperation has the following regular definitions changed:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	UsedName(R,[Default]), UsedName(Map,[Default]), UsedName(Fold,[Default]), UsedName(Run,[Default]), UsedName(Filter,[Default]).[0m
+[0m[[0m[0mdebug[0m] [0m[0mAll member reference dependencies will be considered within this context.[0m
+[0m[[0m[0mdebug[0m] [0m[0mFiles invalidated by inheriting from (external) dsl.elements.MarshalledOperation: Set(); now invalidating by inheritance (internally).[0m
+[0m[[0m[0mdebug[0m] [0m[0mGetting direct dependencies of all classes transitively invalidated by inheritance.[0m
+[0m[[0m[0mdebug[0m] [0m[0mGetting classes that directly depend on (external) dsl.elements.MarshalledOperation.[0m
+[0m[[0m[0mdebug[0m] [0m[0mThe following modified names cause invalidation of dsl.ElementsCompilerTest: Set(UsedName(R,[Default]), UsedName(Map,[Default]), UsedName(Run,[Default]))[0m
+[0m[[0m[0mdebug[0m] [0m[0mThe dsl.interpreter.MarshalledTaskInterpreter has the following regular definitions changed:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	UsedName(R,[Default]), UsedName(toTask,[Default]), UsedName(Map,[Default]), UsedName(Fold,[Default]), UsedName(Run,[Default]), UsedName(Filter,[Default]).[0m
+[0m[[0m[0mdebug[0m] [0m[0mAll member reference dependencies will be considered within this context.[0m
+[0m[[0m[0mdebug[0m] [0m[0mFiles invalidated by inheriting from (external) dsl.interpreter.MarshalledTaskInterpreter: Set(); now invalidating by inheritance (internally).[0m
+[0m[[0m[0mdebug[0m] [0m[0mGetting direct dependencies of all classes transitively invalidated by inheritance.[0m
+[0m[[0m[0mdebug[0m] [0m[0mGetting classes that directly depend on (external) dsl.interpreter.MarshalledTaskInterpreter.[0m
+[0m[[0m[0mdebug[0m] [0m[0mThe following modified names cause invalidation of dsl.ElementsCompilerTest: Set(UsedName(R,[Default]), UsedName(Map,[Default]), UsedName(Run,[Default]))[0m
+[0m[[0m[0mdebug[0m] [0m[0mThe runners.MarshallingRunner has the following regular definitions changed:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	UsedName(R,[Default]), UsedName(run,[Default]).[0m
+[0m[[0m[0mdebug[0m] [0m[0mAll member reference dependencies will be considered within this context.[0m
+[0m[[0m[0mdebug[0m] [0m[0mFiles invalidated by inheriting from (external) runners.MarshallingRunner: Set(); now invalidating by inheritance (internally).[0m
+[0m[[0m[0mdebug[0m] [0m[0mGetting direct dependencies of all classes transitively invalidated by inheritance.[0m
+[0m[[0m[0mdebug[0m] [0m[0mGetting classes that directly depend on (external) runners.MarshallingRunner.[0m
+[0m[[0m[0mdebug[0m] [0m[0mThe following modified names cause invalidation of dsl.ElementsCompilerTest: Set(UsedName(R,[Default]), UsedName(run,[Default]))[0m
+[0m[[0m[0mdebug[0m] [0m[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mInitial source changes: [0m
+[0m[[0m[0mdebug[0m] [0m[0m	removed:Set()[0m
+[0m[[0m[0mdebug[0m] [0m[0m	added: Set()[0m
+[0m[[0m[0mdebug[0m] [0m[0m	modified: Set()[0m
+[0m[[0m[0mdebug[0m] [0m[0mInvalidated products: Set()[0m
+[0m[[0m[0mdebug[0m] [0m[0mExternal API changes: API Changes: Set(NamesChange(runners.MapRunner,ModifiedNames(changes = UsedName(R,[Default]), UsedName(run,[Default]))), NamesChange(dsl.elements.Marshalling$,ModifiedNames(changes = UsedName(apply,[Default]), UsedName(backward,[Default]), UsedName(forward,[Default]), UsedName(pack,[Default]), UsedName(R,[Default]), UsedName(identityMarshalling,[Implicit]), UsedName(Marshalling,[Default]), UsedName(unpack,[Default]), UsedName(instance,[Default]), UsedName(Aux,[Default]), UsedName(chainedMarshalling,[Implicit]), UsedName(dsl;elements;Marshalling;init;,[Default]))), NamesChange(dsl.elements.MarshalledOperation,ModifiedNames(changes = UsedName(R,[Default]), UsedName(Map,[Default]), UsedName(Fold,[Default]), UsedName(Run,[Default]), UsedName(Filter,[Default]))), NamesChange(dsl.interpreter.MarshalledTaskInterpreter,ModifiedNames(changes = UsedName(R,[Default]), UsedName(toTask,[Default]), UsedName(Map,[Default]), UsedName(Fold,[Default]), UsedName(Run,[Default]), UsedName(Filter,[Default]))), NamesChange(runners.MarshallingRunner,ModifiedNames(changes = UsedName(R,[Default]), UsedName(run,[Default]))))[0m
+[0m[[0m[0mdebug[0m] [0m[0mModified binary dependencies: Set()[0m
+[0m[[0m[0mdebug[0m] [0m[0mInitial directly invalidated classes: Set()[0m
+[0m[[0m[0mdebug[0m] [0m[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mSources indirectly invalidated by:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	product: Set()[0m
+[0m[[0m[0mdebug[0m] [0m[0m	binary dep: Set()[0m
+[0m[[0m[0mdebug[0m] [0m[0m	external source: Set(dsl.ElementsCompilerTest)[0m
+[0m[[0m[0mdebug[0m] [0m[0mAll initially invalidated classes: Set(dsl.ElementsCompilerTest)[0m
+[0m[[0m[0mdebug[0m] [0m[0mAll initially invalidated sources:Set()[0m
+[0m[[0m[0mdebug[0m] [0m[0mRecompiling all 1 sources: invalidated sources (1) exceeded 50.0% of all sources[0m
+[0m[[0m[0minfo[0m] [0m[0mCompiling 1 Scala source to C:\REPO\IoTTE\jvm\target\scala-2.12\test-classes ...[0m
+[0m[[0m[0mdebug[0m] [0m[0mGetting org.scala-sbt:compiler-bridge_2.12:1.1.7:compile for Scala 2.12.6[0m
+[0m[[0m[0mdebug[0m] [0m[0mGetting org.scala-sbt:compiler-bridge_2.12:1.1.7:compile for Scala 2.12.6[0m
+[0m[[0m[0mdebug[0m] [0m[0m[zinc] Running cached compiler 3609db32 for Scala compiler version 2.12.6[0m
+[0m[[0m[0mdebug[0m] [0m[0m[zinc] The Scala compiler is invoked with:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	-feature[0m
+[0m[[0m[0mdebug[0m] [0m[0m	-Ypartial-unification[0m
+[0m[[0m[0mdebug[0m] [0m[0m	-bootclasspath[0m
+[0m[[0m[0mdebug[0m] [0m[0m	C:\Program Files\Java\jdk1.8.0_152\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_152\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_152\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_152\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_152\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_152\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_152\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_152\jre\classes;C:\Users\schne\.sbt\boot\scala-2.12.6\lib\scala-library.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m	-classpath[0m
+[0m[[0m[0mdebug[0m] [0m[0m	C:\REPO\IoTTE\jvm\target\scala-2.12\test-classes;C:\REPO\IoTTE\jvm\target\scala-2.12\classes;C:\Users\schne\.ivy2\cache\io.monix\monix_2.12\jars\monix_2.12-3.0.0-RC1.jar;C:\Users\schne\.ivy2\cache\io.monix\monix-execution_2.12\jars\monix-execution_2.12-3.0.0-RC1.jar;C:\Users\schne\.ivy2\cache\org.typelevel\cats-effect_2.12\jars\cats-effect_2.12-0.10.jar;C:\Users\schne\.ivy2\cache\org.typelevel\cats-core_2.12\jars\cats-core_2.12-1.0.1.jar;C:\Users\schne\.ivy2\cache\org.typelevel\cats-macros_2.12\jars\cats-macros_2.12-1.0.1.jar;C:\Users\schne\.ivy2\cache\org.typelevel\machinist_2.12\jars\machinist_2.12-0.6.2.jar;C:\Users\schne\.sbt\boot\scala-2.12.6\lib\scala-reflect.jar;C:\Users\schne\.ivy2\cache\org.typelevel\cats-kernel_2.12\jars\cats-kernel_2.12-1.0.1.jar;C:\Users\schne\.ivy2\cache\org.reactivestreams\reactive-streams\jars\reactive-streams-1.0.2.jar;C:\Users\schne\.ivy2\cache\io.monix\monix-eval_2.12\jars\monix-eval_2.12-3.0.0-RC1.jar;C:\Users\schne\.ivy2\cache\io.monix\monix-tail_2.12\jars\monix-tail_2.12-3.0.0-RC1.jar;C:\Users\schne\.ivy2\cache\io.monix\monix-reactive_2.12\jars\monix-reactive_2.12-3.0.0-RC1.jar;C:\Users\schne\.ivy2\cache\org.jctools\jctools-core\bundles\jctools-core-2.1.1.jar;C:\Users\schne\.ivy2\cache\io.monix\monix-java_2.12\jars\monix-java_2.12-3.0.0-RC1.jar;C:\Users\schne\.ivy2\cache\org.scalactic\scalactic_2.12\bundles\scalactic_2.12-3.0.5.jar;C:\Users\schne\.ivy2\cache\com.typesafe.akka\akka-actor_2.12\jars\akka-actor_2.12-2.5.14.jar;C:\Users\schne\.ivy2\cache\com.typesafe\config\bundles\config-1.3.3.jar;C:\Users\schne\.ivy2\cache\org.scala-lang.modules\scala-java8-compat_2.12\bundles\scala-java8-compat_2.12-0.8.0.jar;C:\Users\schne\.ivy2\cache\com.typesafe.akka\akka-stream_2.12\jars\akka-stream_2.12-2.5.14.jar;C:\Users\schne\.ivy2\cache\com.typesafe.akka\akka-protobuf_2.12\jars\akka-protobuf_2.12-2.5.14.jar;C:\Users\schne\.ivy2\cache\com.typesafe\ssl-config-core_2.12\bundles\ssl-config-core_2.12-0.2.3.jar;C:\Users\schne\.ivy2\cache\org.scala-lang.modules\scala-parser-combinators_2.12\bundles\scala-parser-combinators_2.12-1.1.0.jar;C:\Users\schne\.ivy2\cache\org.scalatest\scalatest_2.12\bundles\scalatest_2.12-3.0.5.jar;C:\Users\schne\.ivy2\cache\org.scala-lang.modules\scala-xml_2.12\bundles\scala-xml_2.12-1.0.6.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0mScala compilation took 2.3381848 s[0m
+[0m[[0m[0minfo[0m] [0m[0mDone compiling.[0m
