@@ -1,7 +1,7 @@
 import sbt.Keys.{libraryDependencies, publishMavenStyle, scalacOptions}
 import sbtcrossproject.CrossPlugin.autoImport.{CrossType, crossProject}
 
-lazy val scalaV = "2.12.6"
+lazy val scalaV = "2.12.7"
 
 lazy val dslJVM = dsl.jvm
 lazy val dslJS = dsl.js
@@ -38,13 +38,16 @@ lazy val dsl =  crossProject(JSPlatform, JVMPlatform)
 
     libraryDependencies += "org.scalactic" %%% "scalactic" % "3.0.5",
     libraryDependencies += "org.scalatest" %%% "scalatest" % "3.0.5" % "test",
+    libraryDependencies += "org.scalatest" %% "scalatest" % "3.0.5" % "test",
 
   ).
   jvmSettings(
-  /**  libraryDependencies ++= Seq(
-      "com.typesafe.akka" %% "akka-actor" % "2.5.14",
-      "com.typesafe.akka" %% "akka-stream" % "2.5.14"
-    )*/
+    libraryDependencies += "com.typesafe.akka" %% "akka-actor" % "2.5.17",
+    libraryDependencies += "com.typesafe.akka" %% "akka-stream" % "2.5.17",
+    libraryDependencies += "com.typesafe.akka" %% "akka-http" % "10.1.5",
+    libraryDependencies += "junit" % "junit" % "4.10" % Test,
+    libraryDependencies += "com.typesafe.akka" %% "akka-testkit" % "2.5.17" % Test
+
   ).
   jsSettings(
     resolvers += Resolver.sonatypeRepo("releases"),
@@ -55,6 +58,7 @@ lazy val dsl =  crossProject(JSPlatform, JVMPlatform)
     ),*/
     libraryDependencies += "org.querki" %%% "querki-jsext" % "0.8",
     libraryDependencies += "com.zeiss" %%% "johnny5scala-js" % "0.0.2-SNAPSHOT",
+    libraryDependencies += "fr.hmil" %%% "roshttp" % "2.1.0",
     scalaJSLinkerConfig ~= { _.withModuleKind(ModuleKind.CommonJSModule) },
     skip in packageJSDependencies := false,
     scalaJSUseMainModuleInitializer := true,
@@ -62,3 +66,17 @@ lazy val dsl =  crossProject(JSPlatform, JVMPlatform)
         "-P:scalajs:sjsDefinedByDefault"
       )
   )
+
+mappings in Universal in Docker += artifactPath.in(fullOptJS).in(Compile).in(dslJS).value -> "iotte.js"
+
+
+enablePlugins(DockerPlugin)
+
+import com.typesafe.sbt.packager.docker._
+
+dockerCommands := Seq(
+  Cmd("FROM", "node"),
+  Cmd("RUN", s"""npm install johnny-five"""),
+  Cmd("COPY", "iotte.js", "."),
+  ExecCmd("CMD", "node iotte.js")
+)

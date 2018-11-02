@@ -22,7 +22,7 @@ trait FunctionOperation[F[_]] extends Operation[F]{
 
 
 
-case class OperationDefinition[In, Out, Definon](
+case class  OperationDefinition[In, Out, Definon](
                                                   definition:Definon,
                                                   fallbackValue: Option[Out] = None,
                                                   fallbackOperation: Option[OperationDefinition[In, Out,Definon]] = None,

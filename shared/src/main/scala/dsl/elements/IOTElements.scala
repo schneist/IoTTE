@@ -12,23 +12,23 @@ trait IoTOperation[F[_]]  {
   def doOnce[In, Out](
                        input: In,
                        operationDefinition: OperationDefinition[In, Out,(In,Context)=> Out],
-                       ctx: Option[Context] = None
+                       ctx: Context
                      ): F[Out]
 
   def waitFor[In, Out](
                         input: In,
                         operationDefinition: OperationDefinition[In, Out,(In,Context,Subscriber[Out])=> Unit],
-                        ctx: Option[Context] = None
+                        ctx: Context
                       ): F[Out]
 
   def source[In,Out]( input: In,
                       operationDefinition: OperationDefinition[In, Out,(In,Context)=> Publisher[Out]],
-                      ctx: Option[Context] = None
+                      ctx: Context
                  ): F[Publisher[Out]]
 
   def sink[In,Out]( input: In,
                       operationDefinition: OperationDefinition[In, Out,(In,Context)=> Subscriber[Out]],
-                      ctx: Option[Context] = None
+                    ctx: Context
                     ): F[Subscriber[Out]]
 
 
