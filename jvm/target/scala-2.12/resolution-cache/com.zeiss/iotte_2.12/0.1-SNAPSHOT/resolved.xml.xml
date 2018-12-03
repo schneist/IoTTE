@@ -4,7 +4,7 @@
 		module="iotte_2.12"
 		revision="0.1-SNAPSHOT"
 		status="integration"
-		publication="20180814093015"
+		publication="20181201171149"
 	>
 		<description>
 		IoTTE
@@ -30,10 +30,15 @@
 		<artifact name="iotte_2.12" type="doc" ext="jar" conf="compile" e:classifier="javadoc"/>
 	</publications>
 	<dependencies>
-		<dependency org="org.scala-lang" name="scala-compiler" rev="2.12.6" conf="scala-tool->default,optional(default)"/>
-		<dependency org="org.scala-lang" name="scala-library" rev="2.12.6" conf="scala-tool->default,optional(default);compile->default(compile)"/>
-		<dependency org="io.monix" name="monix_2.12" rev="3.0.0-RC1" conf="compile->default(compile)"/>
+		<dependency org="org.scala-lang" name="scala-compiler" rev="2.12.7" conf="scala-tool->default,optional(default)"/>
+		<dependency org="org.scala-lang" name="scala-library" rev="2.12.7" conf="scala-tool->default,optional(default);compile->default(compile)"/>
+		<dependency org="io.monix" name="monix_2.12" rev="3.0.0-RC2" conf="compile->default(compile)"/>
 		<dependency org="org.scalactic" name="scalactic_2.12" rev="3.0.5" conf="compile->default(compile)"/>
 		<dependency org="org.scalatest" name="scalatest_2.12" rev="3.0.5" conf="test->default(compile)"/>
+		<dependency org="com.typesafe.akka" name="akka-actor_2.12" rev="2.5.17" conf="compile->default(compile)"/>
+		<dependency org="com.typesafe.akka" name="akka-stream_2.12" rev="2.5.17" conf="compile->default(compile)"/>
+		<dependency org="com.typesafe.akka" name="akka-http_2.12" rev="10.1.5" conf="compile->default(compile)"/>
+		<dependency org="junit" name="junit" rev="4.10" conf="test->default(compile)"/>
+		<dependency org="com.typesafe.akka" name="akka-testkit_2.12" rev="2.5.17" conf="test->default(compile)"/>
 	</dependencies>
 </ivy-module>

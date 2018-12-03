@@ -13,7 +13,7 @@ import scala.language.{higherKinds, implicitConversions, postfixOps}
 import scala.scalajs.js.UndefOr
 
 object Main2 {
-  def main(args: Array[String]): Unit = {
+  def main4(args: Array[String]): Unit = {
 
     import johnnyfivescalajs.JohnnyFive._
 
@@ -48,7 +48,7 @@ object Main2 {
     board.on("ready", () => {
       println("Johnny ready.")
       program[Task]
-        .runAsync
+        .runAsyncAndForget
     })
 
 

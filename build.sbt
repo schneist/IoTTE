@@ -17,10 +17,10 @@ lazy val dsl =  crossProject(JSPlatform, JVMPlatform)
 
     scalaVersion := scalaV,
 
-    scalacOptions ++= Seq(
-      "-feature",
-      "-Ypartial-unification" ,
-    ),
+      scalacOptions ++= Seq(
+        "-feature",
+        "-Ypartial-unification" ,
+      ),
 
     resolvers ++= Seq(
       "Typesafe" at "http://repo.typesafe.com/typesafe/releases/",
@@ -34,11 +34,10 @@ lazy val dsl =  crossProject(JSPlatform, JVMPlatform)
 
     publishMavenStyle := true,
 
-    libraryDependencies += "io.monix" %%% "monix" % "3.0.0-RC1",
-
+    libraryDependencies += "io.monix" %%% "monix" % "3.0.0-RC2",
+    
     libraryDependencies += "org.scalactic" %%% "scalactic" % "3.0.5",
     libraryDependencies += "org.scalatest" %%% "scalatest" % "3.0.5" % "test",
-    libraryDependencies += "org.scalatest" %% "scalatest" % "3.0.5" % "test",
 
   ).
   jvmSettings(
@@ -56,6 +55,7 @@ lazy val dsl =  crossProject(JSPlatform, JVMPlatform)
       "org.akka-js" %%% "akkajsactor" % "1.2.5.14",
       "com.lihaoyi" %%% "scalatags" % "0.6.4"
     ),*/
+    libraryDependencies += "io.scalajs" %%% "nodejs" % "0.4.2",
     libraryDependencies += "org.querki" %%% "querki-jsext" % "0.8",
     libraryDependencies += "com.zeiss" %%% "johnny5scala-js" % "0.0.2-SNAPSHOT",
     libraryDependencies += "fr.hmil" %%% "roshttp" % "2.1.0",

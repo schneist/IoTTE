@@ -28,7 +28,7 @@ class IoTTaskInterpreter[C] extends  IoTOperation[Task] {
         val subs =  new Subscriber[Out] {
           override def onSubscribe(s: Subscription): Unit = {s.request(1)}
 
-          override def onNext(t: Out): Unit = callback.onValue(t)
+          override def onNext(t: Out): Unit = callback.onSuccess(t)
 
           override def onError(t: Throwable): Unit = callback.onError(t)
 

@@ -8,7 +8,15 @@ import scala.scalajs.js.annotation._
 @js.native
 @JSImport("python-shell", JSImport.Namespace)
 object PythonShellJS extends js.Object{
-  def run(pathToScript:String,options:PythonShellOptions,callback:js.Function2[String,String,Unit]) :Unit = js.native
+
+  @js.native
+  object PythonShell extends js.Object {
+
+    def run(pathToScript:String,options:PythonShellOptions,callback:js.Function2[js.UndefOr[String],js.UndefOr[String],Unit]) :Unit = js.native
+    def runString(Script:String,options:PythonShellOptions,callback:js.Function2[js.UndefOr[String], js.UndefOr[String] ,Unit]) :Unit = js.native
+
+  }
+
 }
 
 object Mode  extends Enumeration {

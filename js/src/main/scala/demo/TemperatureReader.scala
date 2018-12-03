@@ -60,7 +60,7 @@ object Main3 {
     board.on("ready", () => {
       println("Johnny ready.")
       program[Task]
-        .runAsync
+        .runAsyncAndForget
     })
 
     //System.in.read // let it run until user presses return

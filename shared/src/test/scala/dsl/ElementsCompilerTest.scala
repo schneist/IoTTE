@@ -47,7 +47,7 @@ class ElementsCompilerTest extends WordSpec with Matchers {
       }
 
 
-      run.runAsync.onComplete(r => r.get should be(4))
+      run.runToFuture.onComplete(r => r.get should be(4))
 
 
 
