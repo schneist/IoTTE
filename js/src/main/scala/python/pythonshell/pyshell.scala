@@ -12,10 +12,19 @@ object PythonShellJS extends js.Object{
   @js.native
   object PythonShell extends js.Object {
 
-    def run(pathToScript:String,options:PythonShellOptions,callback:js.Function2[js.UndefOr[String],js.UndefOr[String],Unit]) :Unit = js.native
-    def runString(Script:String,options:PythonShellOptions,callback:js.Function2[js.UndefOr[String], js.UndefOr[String] ,Unit]) :Unit = js.native
+    def run(pathToScript:String,options:PythonShellOptions,callback:js.Function2[js.UndefOr[String],js.UndefOr[String],Unit]) : PythonShell = js.native
+    def runString(Script:String,options:PythonShellOptions,callback:js.Function2[js.UndefOr[String], js.UndefOr[String] ,Unit]) :PythonShell = js.native
 
   }
+
+  @js.native
+  class PythonShell extends js.Object {
+
+    def send( string: String) : Unit = js.native
+
+    def on(event :String, function1: String => Unit)  :Unit = js.native
+  }
+
 
 }
 

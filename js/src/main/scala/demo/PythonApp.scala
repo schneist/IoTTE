@@ -7,6 +7,7 @@ import monix.execution.Scheduler.Implicits.global
 import python.runner.PythonRunner
 import runners.MarshallingRunner
 
+import scala.concurrent.duration._
 import scala.language.{higherKinds, implicitConversions, postfixOps}
 
 
@@ -35,7 +36,10 @@ object PythonApp{
 
 
   def main(args: Array[String]): Unit = {
-    program(mo).runToFuture
-    println("!")
+    program(mo)
+      .timeout(10 second)
+      .runToFuture
+      .onComplete(t => println(t.toEither))
+
   }
 }
