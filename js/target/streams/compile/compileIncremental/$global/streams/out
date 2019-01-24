@@ -1,50 +1,31 @@
 [0m[[0m[0mdebug[0m] [0m[0m[0m
 [0m[[0m[0mdebug[0m] [0m[0mInitial source changes: [0m
-[0m[[0m[0mdebug[0m] [0m[0m	removed:Set(C:\REPO\LanguageDefinition\js\src\main\scala\demo\demo.scala, C:\REPO\DSL\shared\src\main\scala\dsl\interpreter\PureTaskInterpreter.scala)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	removed:Set()[0m
 [0m[[0m[0mdebug[0m] [0m[0m	added: Set()[0m
-[0m[[0m[0mdebug[0m] [0m[0m	modified: Set(/Users/schneist/Documents/GitHub/IoTTE/js/src/main/scala/python/pythonshell/PythonShell.scala, /Users/schneist/Documents/GitHub/IoTTE/js/src/main/scala/python/pythonshell/pyshell.scala)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	modified: Set(/Users/schneist/Documents/GitHub/IoTTE/js/src/main/scala/definitions/PythonDefinitions.scala, /Users/schneist/Documents/GitHub/IoTTE/js/src/main/scala/demo/LEDButtonDemo.scala)[0m
 [0m[[0m[0mdebug[0m] [0m[0mInvalidated products: Set()[0m
 [0m[[0m[0mdebug[0m] [0m[0mExternal API changes: API Changes: Set()[0m
 [0m[[0m[0mdebug[0m] [0m[0mModified binary dependencies: Set()[0m
-[0m[[0m[0mdebug[0m] [0m[0mInitial directly invalidated classes: Set(python.pythonshell.PythonShellJS.PythonShell, python.pythonshell.PythonShellOptions, python.pythonshell.Mode, python.pythonshell.PythonShellJS, python.pythonshell.PythonShellS)[0m
+[0m[[0m[0mdebug[0m] [0m[0mInitial directly invalidated classes: Set(definitions.PythonDefinitions, demo.Main2)[0m
 [0m[[0m[0mdebug[0m] [0m[0m[0m
 [0m[[0m[0mdebug[0m] [0m[0mSources indirectly invalidated by:[0m
 [0m[[0m[0mdebug[0m] [0m[0m	product: Set()[0m
 [0m[[0m[0mdebug[0m] [0m[0m	binary dep: Set()[0m
 [0m[[0m[0mdebug[0m] [0m[0m	external source: Set()[0m
-[0m[[0m[0mdebug[0m] [0m[0mAll initially invalidated classes: Set(python.pythonshell.PythonShellJS.PythonShell, python.pythonshell.PythonShellOptions, python.pythonshell.Mode, python.pythonshell.PythonShellJS, python.pythonshell.PythonShellS)[0m
-[0m[[0m[0mdebug[0m] [0m[0mAll initially invalidated sources:Set(/Users/schneist/Documents/GitHub/IoTTE/js/src/main/scala/python/pythonshell/PythonShell.scala, /Users/schneist/Documents/GitHub/IoTTE/js/src/main/scala/python/pythonshell/pyshell.scala)[0m
+[0m[[0m[0mdebug[0m] [0m[0mAll initially invalidated classes: Set(definitions.PythonDefinitions, demo.Main2)[0m
+[0m[[0m[0mdebug[0m] [0m[0mAll initially invalidated sources:Set(/Users/schneist/Documents/GitHub/IoTTE/js/src/main/scala/definitions/PythonDefinitions.scala, /Users/schneist/Documents/GitHub/IoTTE/js/src/main/scala/demo/LEDButtonDemo.scala)[0m
 [0m[[0m[0minfo[0m] [0m[0mCompiling 2 Scala sources to /Users/schneist/Documents/GitHub/IoTTE/js/target/scala-2.12/classes ...[0m
-[0m[[0m[0mdebug[0m] [0m[0mGetting org.scala-sbt:compiler-bridge_2.12:1.2.4:compile for Scala 2.12.7[0m
-[0m[[0m[0mdebug[0m] [0m[0mGetting org.scala-sbt:compiler-bridge_2.12:1.2.4:compile for Scala 2.12.7[0m
-[0m[[0m[0mdebug[0m] [0m[0m[zinc] Running cached compiler 6d618972 for Scala compiler version 2.12.7[0m
+[0m[[0m[0mdebug[0m] [0m[0mGetting org.scala-sbt:compiler-bridge_2.12:1.2.5:compile for Scala 2.12.8[0m
+[0m[[0m[0mdebug[0m] [0m[0mGetting org.scala-sbt:compiler-bridge_2.12:1.2.5:compile for Scala 2.12.8[0m
+[0m[[0m[0mdebug[0m] [0m[0m[zinc] Running cached compiler 5a02b627 for Scala compiler version 2.12.8[0m
 [0m[[0m[0mdebug[0m] [0m[0m[zinc] The Scala compiler is invoked with:[0m
 [0m[[0m[0mdebug[0m] [0m[0m	-feature[0m
 [0m[[0m[0mdebug[0m] [0m[0m	-Ypartial-unification[0m
 [0m[[0m[0mdebug[0m] [0m[0m	-P:scalajs:sjsDefinedByDefault[0m
-[0m[[0m[0mdebug[0m] [0m[0m	-Xplugin:/Users/schneist/.ivy2/cache/org.scala-js/scalajs-compiler_2.12.7/jars/scalajs-compiler_2.12.7-0.6.25.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m	-Xplugin:/Users/schneist/.ivy2/cache/org.scala-js/scalajs-compiler_2.12.8/jars/scalajs-compiler_2.12.8-0.6.26.jar[0m
 [0m[[0m[0mdebug[0m] [0m[0m	-bootclasspath[0m
-[0m[[0m[0mdebug[0m] [0m[0m	/Users/schneist/.sbt/boot/scala-2.12.7/lib/scala-library.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/Users/schneist/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.12.8.jar[0m
 [0m[[0m[0mdebug[0m] [0m[0m	-classpath[0m
-[0m[[0m[0mdebug[0m] [0m[0m	/Users/schneist/Documents/GitHub/IoTTE/js/target/scala-2.12/classes:/Users/schneist/.ivy2/cache/org.scala-js/scalajs-library_2.12/jars/scalajs-library_2.12-0.6.25.jar:/Users/schneist/.ivy2/cache/io.monix/monix_sjs0.6_2.12/jars/monix_sjs0.6_2.12-3.0.0-RC2.jar:/Users/schneist/.ivy2/cache/io.monix/monix-execution_sjs0.6_2.12/jars/monix-execution_sjs0.6_2.12-3.0.0-RC2.jar:/Users/schneist/.ivy2/cache/org.typelevel/cats-effect_sjs0.6_2.12/jars/cats-effect_sjs0.6_2.12-1.0.0.jar:/Users/schneist/.ivy2/cache/org.typelevel/cats-core_sjs0.6_2.12/jars/cats-core_sjs0.6_2.12-1.3.1.jar:/Users/schneist/.ivy2/cache/org.typelevel/cats-macros_sjs0.6_2.12/jars/cats-macros_sjs0.6_2.12-1.3.1.jar:/Users/schneist/.ivy2/cache/org.typelevel/machinist_sjs0.6_2.12/jars/machinist_sjs0.6_2.12-0.6.5.jar:/Users/schneist/.sbt/boot/scala-2.12.7/lib/scala-reflect.jar:/Users/schneist/.ivy2/cache/org.scala-lang.modules/scala-collection-compat_2.12/bundles/scala-collection-compat_2.12-0.1.1.jar:/Users/schneist/.ivy2/cache/org.typelevel/cats-kernel_sjs0.6_2.12/jars/cats-kernel_sjs0.6_2.12-1.3.1.jar:/Users/schneist/.ivy2/cache/io.monix/monix-catnap_sjs0.6_2.12/jars/monix-catnap_sjs0.6_2.12-3.0.0-RC2.jar:/Users/schneist/.ivy2/cache/io.monix/monix-eval_sjs0.6_2.12/jars/monix-eval_sjs0.6_2.12-3.0.0-RC2.jar:/Users/schneist/.ivy2/cache/io.monix/monix-tail_sjs0.6_2.12/jars/monix-tail_sjs0.6_2.12-3.0.0-RC2.jar:/Users/schneist/.ivy2/cache/io.monix/monix-reactive_sjs0.6_2.12/jars/monix-reactive_sjs0.6_2.12-3.0.0-RC2.jar:/Users/schneist/.ivy2/cache/org.scalactic/scalactic_sjs0.6_2.12/bundles/scalactic_sjs0.6_2.12-3.0.5.jar:/Users/schneist/.ivy2/cache/io.scalajs/nodejs_sjs0.6_2.12/jars/nodejs_sjs0.6_2.12-0.4.2.jar:/Users/schneist/.ivy2/cache/io.scalajs/nodejs-core_sjs0.6_2.12/jars/nodejs-core_sjs0.6_2.12-0.4.2.jar:/Users/schneist/.ivy2/cache/io.scalajs/core_sjs0.6_2.12/jars/core_sjs0.6_2.12-0.4.2.jar:/Users/schneist/.ivy2/cache/org.querki/querki-jsext_sjs0.6_2.12/jars/querki-jsext_sjs0.6_2.12-0.8.jar:/Users/schneist/.ivy2/local/com.zeiss/johnny5scala-js_sjs0.6_2.12/0.0.2-SNAPSHOT/jars/johnny5scala-js_sjs0.6_2.12.jar:/Users/schneist/.ivy2/cache/fr.hmil/roshttp_sjs0.6_2.12/jars/roshttp_sjs0.6_2.12-2.1.0.jar:/Users/schneist/.ivy2/cache/org.scala-js/scalajs-dom_sjs0.6_2.12/jars/scalajs-dom_sjs0.6_2.12-0.9.1.jar[0m
-[0m[[0m[0mdebug[0m] [0m[0mScala compilation took 0.655573715 s[0m
-[0m[[0m[0minfo[0m] [0m[0mDone compiling.[0m
-[0m[[0m[0mdebug[0m] [0m[0mInvalidating (transitively) by inheritance from python.pythonshell.PythonShellJS.PythonShell...[0m
-[0m[[0m[0mdebug[0m] [0m[0mInitial set of included nodes: Set(python.pythonshell.PythonShellJS.PythonShell)[0m
-[0m[[0m[0mdebug[0m] [0m[0mInvalidated by transitive inheritance dependency: Set(python.pythonshell.PythonShellJS.PythonShell)[0m
-[0m[[0m[0mdebug[0m] [0m[0mThe following modified names cause invalidation of python.pythonshell.PythonShellS: Set(UsedName(runString,[Default]))[0m
-[0m[[0m[0mdebug[0m] [0m[0mChange NamesChange(python.pythonshell.PythonShellJS.PythonShell,ModifiedNames(changes = UsedName(runString,[Default]))) invalidates 2 classes due to The python.pythonshell.PythonShellJS.PythonShell has the following regular definitions changed:[0m
-[0m[[0m[0mdebug[0m] [0m[0m	UsedName(runString,[Default]).[0m
-[0m[[0m[0mdebug[0m] [0m[0m	> by transitive inheritance: Set(python.pythonshell.PythonShellJS.PythonShell)[0m
-[0m[[0m[0mdebug[0m] [0m[0m	> [0m
-[0m[[0m[0mdebug[0m] [0m[0m	> by member reference: Set(python.pythonshell.PythonShellS)[0m
-[0m[[0m[0mdebug[0m] [0m[0m        [0m
-[0m[[0m[0mdebug[0m] [0m[0mNew invalidations:[0m
-[0m[[0m[0mdebug[0m] [0m[0m	Set(python.pythonshell.PythonShellS)[0m
-[0m[[0m[0mdebug[0m] [0m[0mInitial set of included nodes: Set(python.pythonshell.PythonShellS)[0m
-[0m[[0m[0mdebug[0m] [0m[0mIncluding python.runner.PythonRunner by python.pythonshell.PythonShellS[0m
-[0m[[0m[0mdebug[0m] [0m[0mIncluding demo.Main2 by python.runner.PythonRunner[0m
-[0m[[0m[0mdebug[0m] [0m[0mIncluding demo.PythonApp by python.runner.PythonRunner[0m
-[0m[[0m[0mdebug[0m] [0m[0mPreviously invalidated, but (transitively) depend on new invalidations:[0m
-[0m[[0m[0mdebug[0m] [0m[0m	Set()[0m
-[0m[[0m[0mdebug[0m] [0m[0mAll newly invalidated classes after taking into account (previously) recompiled classes:Set()[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/Users/schneist/Documents/GitHub/IoTTE/js/target/scala-2.12/classes:/Users/schneist/.ivy2/cache/org.scala-js/scalajs-library_2.12/jars/scalajs-library_2.12-0.6.26.jar:/Users/schneist/.ivy2/cache/io.monix/monix_sjs0.6_2.12/jars/monix_sjs0.6_2.12-3.0.0-RC2.jar:/Users/schneist/.ivy2/cache/io.monix/monix-execution_sjs0.6_2.12/jars/monix-execution_sjs0.6_2.12-3.0.0-RC2.jar:/Users/schneist/.ivy2/cache/org.typelevel/cats-effect_sjs0.6_2.12/jars/cats-effect_sjs0.6_2.12-1.0.0.jar:/Users/schneist/.ivy2/cache/org.typelevel/cats-core_sjs0.6_2.12/jars/cats-core_sjs0.6_2.12-1.3.1.jar:/Users/schneist/.ivy2/cache/org.typelevel/cats-macros_sjs0.6_2.12/jars/cats-macros_sjs0.6_2.12-1.3.1.jar:/Users/schneist/.ivy2/cache/org.typelevel/machinist_sjs0.6_2.12/jars/machinist_sjs0.6_2.12-0.6.5.jar:/Users/schneist/.ivy2/cache/org.scala-lang/scala-reflect/jars/scala-reflect-2.12.8.jar:/Users/schneist/.ivy2/cache/org.scala-lang.modules/scala-collection-compat_2.12/bundles/scala-collection-compat_2.12-0.1.1.jar:/Users/schneist/.ivy2/cache/org.typelevel/cats-kernel_sjs0.6_2.12/jars/cats-kernel_sjs0.6_2.12-1.3.1.jar:/Users/schneist/.ivy2/cache/io.monix/monix-catnap_sjs0.6_2.12/jars/monix-catnap_sjs0.6_2.12-3.0.0-RC2.jar:/Users/schneist/.ivy2/cache/io.monix/monix-eval_sjs0.6_2.12/jars/monix-eval_sjs0.6_2.12-3.0.0-RC2.jar:/Users/schneist/.ivy2/cache/io.monix/monix-tail_sjs0.6_2.12/jars/monix-tail_sjs0.6_2.12-3.0.0-RC2.jar:/Users/schneist/.ivy2/cache/io.monix/monix-reactive_sjs0.6_2.12/jars/monix-reactive_sjs0.6_2.12-3.0.0-RC2.jar:/Users/schneist/.ivy2/cache/org.scalaz/scalaz-zio_sjs0.6_2.12/jars/scalaz-zio_sjs0.6_2.12-0.5.3.jar:/Users/schneist/.ivy2/cache/org.scalactic/scalactic_sjs0.6_2.12/bundles/scalactic_sjs0.6_2.12-3.0.5.jar:/Users/schneist/.ivy2/cache/com.chuusai/shapeless_sjs0.6_2.12/bundles/shapeless_sjs0.6_2.12-2.3.3.jar:/Users/schneist/.ivy2/cache/org.typelevel/macro-compat_2.12/jars/macro-compat_2.12-1.1.1.jar:/Users/schneist/.ivy2/cache/io.scalajs/nodejs_sjs0.6_2.12/jars/nodejs_sjs0.6_2.12-0.4.2.jar:/Users/schneist/.ivy2/cache/io.scalajs/nodejs-core_sjs0.6_2.12/jars/nodejs-core_sjs0.6_2.12-0.4.2.jar:/Users/schneist/.ivy2/cache/io.scalajs/core_sjs0.6_2.12/jars/core_sjs0.6_2.12-0.4.2.jar:/Users/schneist/.ivy2/cache/org.querki/querki-jsext_sjs0.6_2.12/jars/querki-jsext_sjs0.6_2.12-0.8.jar:/Users/schneist/.ivy2/local/com.zeiss/johnny5scala-js_sjs0.6_2.12/0.0.2-SNAPSHOT/jars/johnny5scala-js_sjs0.6_2.12.jar:/Users/schneist/.ivy2/cache/fr.hmil/roshttp_sjs0.6_2.12/jars/roshttp_sjs0.6_2.12-2.2.3.jar:/Users/schneist/.ivy2/cache/org.scala-js/scalajs-dom_sjs0.6_2.12/jars/scalajs-dom_sjs0.6_2.12-0.9.1.jar:/Users/schneist/.ivy2/local/net.novogarchinsk/pyshell-scalajs_sjs0.6_2.12/0.1-SNAPSHOT/jars/pyshell-scalajs_sjs0.6_2.12.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0mCompilation failed (CompilerInterface)[0m
+[0m[[0m[31merror[0m] [0m[0m(dslJS / Compile / [31mcompileIncremental[0m) Compilation failed[0m

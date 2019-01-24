@@ -65,14 +65,15 @@ object J5Definitions {
         })
       }
     })
+
   type Pin_SensorType =  Product2[Int,String]
 
   def sourceTemperatureSensor =
     new OperationDefinition[Pin_SensorType, Double ,PublisherCreator[Pin_SensorType,Double] ]((p: Pin_SensorType, _)=> {
       (subscriber: Subscriber[_ >: Double]) => {
-        val h = Hygrometer(new HygrometerOption{controller = p._2})
+        val h = Multi(new MultiOption {controller = p._2})
           h.on("change", () => {
-            subscriber.onNext(h.relativeHumidity);
+            subscriber.onNext(h.thermometer.celsius);
           })
       }
     })

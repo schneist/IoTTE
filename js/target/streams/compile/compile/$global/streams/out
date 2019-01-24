@@ -1,6 +1,8 @@
-[0m[[0m[31merror[0m] [0m[0m/Users/schneist/Documents/GitHub/IoTTE/js/src/main/scala/python/pythonshell/PythonShell.scala:18:17: type mismatch;[0m
-[0m[[0m[31merror[0m] [0m[0m found   : Function2[scala.scalajs.js.UndefOr[String],Option[String],Unit] (in scala) [0m
-[0m[[0m[31merror[0m] [0m[0m required: Function2[String,scala.scalajs.js.UndefOr[String],Unit]         (in scala.scalajs.js) [0m
-[0m[[0m[31merror[0m] [0m[0m      reportBack(callback)[0m
-[0m[[0m[31merror[0m] [0m[0m                ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/schneist/Documents/GitHub/IoTTE/js/src/main/scala/definitions/PythonDefinitions.scala:8:50: not found: type PythonShellScalsa[0m
+[0m[[0m[31merror[0m] [0m[0m  def switchLED = new OperationDefinition[Unit , PythonShellScalsa,(Unit) => String ]()[0m
+[0m[[0m[31merror[0m] [0m[0m                                                 ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/Users/schneist/Documents/GitHub/IoTTE/js/src/main/scala/demo/LEDButtonDemo.scala:56:17: a pure expression does nothing in statement position[0m
+[0m[[0m[33mwarn[0m] [0m[0m        } yield button[0m
+[0m[[0m[33mwarn[0m] [0m[0m                ^[0m
+[0m[[0m[33mwarn[0m] [0m[0mone warning found[0m
 [0m[[0m[31merror[0m] [0m[0mone error found[0m

@@ -1,313 +1,301 @@
-[debug] :: resolving dependencies :: default#iotte$sources;0.1.0-SNAPSHOT
-[debug] 	confs: [compile, runtime, test, provided, optional, universal, universal-docs, universal-src, docker, compile-internal, runtime-internal, test-internal, plugin, pom, scala-tool]
-[debug] 	validate = true
-[debug] 	refresh = false
-[debug] resolving dependencies for configuration 'compile'
-[debug] == resolving dependencies for default#iotte$sources;0.1.0-SNAPSHOT [compile]
-[debug] == resolving dependencies default#iotte$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.7 [compile->default]
-[debug] sbt-chain: Checking cache for: dependency: org.scala-lang#scala-library;2.12.7 {compile=[default, compile, runtime, default(compile), master], runtime=[default, compile, runtime, default(compile), master], test=[default, compile, runtime, default(compile), master], compile-internal=[default, compile, runtime, default(compile), master], runtime-internal=[default, compile, runtime, default(compile), master], test-internal=[default, compile, runtime, default(compile), master], scala-tool=[default, master(*), compile, runtime(*), runtime, optional, optional(default), compile(*), master]}
-[debug] sbt-chain: module revision found in cache: org.scala-lang#scala-library;2.12.7
-[debug] 	found org.scala-lang#scala-library;2.12.7 in sbt-chain
-[debug] 	[2.12.7] org.scala-lang#scala-library;2.12.7
-[debug] == resolving dependencies default#iotte$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.7 [compile->runtime]
-[debug] == resolving dependencies default#iotte$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.7 [compile->compile]
-[debug] == resolving dependencies default#iotte$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.7 [compile->master]
-[debug] == resolving dependencies default#iotte$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.7 [compile->compile]
-[debug] == resolving dependencies default#iotte$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.7 [compile->runtime]
-[debug] == resolving dependencies default#iotte$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.7 [compile->compile]
-[debug] == resolving dependencies default#iotte$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.7 [compile->default(compile)]
-[debug] == resolving dependencies default#iotte$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.7 [compile->runtime]
-[debug] == resolving dependencies default#iotte$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.7 [compile->compile]
-[debug] == resolving dependencies default#iotte$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.7 [compile->master]
-[debug] == resolving dependencies default#iotte$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.7 [compile->master]
-[debug] resolving dependencies for configuration 'runtime'
-[debug] == resolving dependencies for default#iotte$sources;0.1.0-SNAPSHOT [runtime]
-[debug] == resolving dependencies for default#iotte$sources;0.1.0-SNAPSHOT [compile]
-[debug] == resolving dependencies default#iotte$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.7 [compile->default]
-[debug] == resolving dependencies default#iotte$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.7 [compile->runtime]
-[debug] == resolving dependencies default#iotte$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.7 [compile->compile]
-[debug] == resolving dependencies default#iotte$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.7 [compile->master]
-[debug] == resolving dependencies default#iotte$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.7 [compile->compile]
-[debug] == resolving dependencies default#iotte$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.7 [compile->runtime]
-[debug] == resolving dependencies default#iotte$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.7 [compile->compile]
-[debug] == resolving dependencies default#iotte$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.7 [compile->default(compile)]
-[debug] == resolving dependencies default#iotte$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.7 [compile->runtime]
-[debug] == resolving dependencies default#iotte$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.7 [compile->compile]
-[debug] == resolving dependencies default#iotte$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.7 [compile->master]
-[debug] == resolving dependencies default#iotte$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.7 [compile->master]
-[debug] == resolving dependencies default#iotte$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.7 [runtime->default]
-[debug] == resolving dependencies default#iotte$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.7 [runtime->runtime]
-[debug] == resolving dependencies default#iotte$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.7 [runtime->compile]
-[debug] == resolving dependencies default#iotte$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.7 [runtime->master]
-[debug] == resolving dependencies default#iotte$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.7 [runtime->compile]
-[debug] == resolving dependencies default#iotte$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.7 [runtime->runtime]
-[debug] == resolving dependencies default#iotte$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.7 [runtime->compile]
-[debug] == resolving dependencies default#iotte$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.7 [runtime->default(compile)]
-[debug] == resolving dependencies default#iotte$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.7 [runtime->runtime]
-[debug] == resolving dependencies default#iotte$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.7 [runtime->compile]
-[debug] == resolving dependencies default#iotte$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.7 [runtime->master]
-[debug] == resolving dependencies default#iotte$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.7 [runtime->master]
-[debug] resolving dependencies for configuration 'test'
-[debug] == resolving dependencies for default#iotte$sources;0.1.0-SNAPSHOT [test]
-[debug] == resolving dependencies for default#iotte$sources;0.1.0-SNAPSHOT [runtime]
-[debug] == resolving dependencies for default#iotte$sources;0.1.0-SNAPSHOT [compile]
-[debug] == resolving dependencies default#iotte$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.7 [compile->default]
-[debug] == resolving dependencies default#iotte$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.7 [compile->runtime]
-[debug] == resolving dependencies default#iotte$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.7 [compile->compile]
-[debug] == resolving dependencies default#iotte$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.7 [compile->master]
-[debug] == resolving dependencies default#iotte$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.7 [compile->compile]
-[debug] == resolving dependencies default#iotte$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.7 [compile->runtime]
-[debug] == resolving dependencies default#iotte$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.7 [compile->compile]
-[debug] == resolving dependencies default#iotte$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.7 [compile->default(compile)]
-[debug] == resolving dependencies default#iotte$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.7 [compile->runtime]
-[debug] == resolving dependencies default#iotte$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.7 [compile->compile]
-[debug] == resolving dependencies default#iotte$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.7 [compile->master]
-[debug] == resolving dependencies default#iotte$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.7 [compile->master]
-[debug] == resolving dependencies default#iotte$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.7 [runtime->default]
-[debug] == resolving dependencies default#iotte$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.7 [runtime->runtime]
-[debug] == resolving dependencies default#iotte$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.7 [runtime->compile]
-[debug] == resolving dependencies default#iotte$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.7 [runtime->master]
-[debug] == resolving dependencies default#iotte$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.7 [runtime->compile]
-[debug] == resolving dependencies default#iotte$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.7 [runtime->runtime]
-[debug] == resolving dependencies default#iotte$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.7 [runtime->compile]
-[debug] == resolving dependencies default#iotte$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.7 [runtime->default(compile)]
-[debug] == resolving dependencies default#iotte$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.7 [runtime->runtime]
-[debug] == resolving dependencies default#iotte$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.7 [runtime->compile]
-[debug] == resolving dependencies default#iotte$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.7 [runtime->master]
-[debug] == resolving dependencies default#iotte$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.7 [runtime->master]
-[debug] == resolving dependencies default#iotte$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.7 [test->default]
-[debug] == resolving dependencies default#iotte$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.7 [test->runtime]
-[debug] == resolving dependencies default#iotte$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.7 [test->compile]
-[debug] == resolving dependencies default#iotte$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.7 [test->master]
-[debug] == resolving dependencies default#iotte$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.7 [test->compile]
-[debug] == resolving dependencies default#iotte$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.7 [test->runtime]
-[debug] == resolving dependencies default#iotte$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.7 [test->compile]
-[debug] == resolving dependencies default#iotte$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.7 [test->default(compile)]
-[debug] == resolving dependencies default#iotte$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.7 [test->runtime]
-[debug] == resolving dependencies default#iotte$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.7 [test->compile]
-[debug] == resolving dependencies default#iotte$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.7 [test->master]
-[debug] == resolving dependencies default#iotte$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.7 [test->master]
-[debug] resolving dependencies for configuration 'provided'
-[debug] == resolving dependencies for default#iotte$sources;0.1.0-SNAPSHOT [provided]
-[debug] resolving dependencies for configuration 'optional'
-[debug] == resolving dependencies for default#iotte$sources;0.1.0-SNAPSHOT [optional]
-[debug] resolving dependencies for configuration 'universal'
-[debug] == resolving dependencies for default#iotte$sources;0.1.0-SNAPSHOT [universal]
-[debug] resolving dependencies for configuration 'universal-docs'
-[debug] == resolving dependencies for default#iotte$sources;0.1.0-SNAPSHOT [universal-docs]
-[debug] resolving dependencies for configuration 'universal-src'
-[debug] == resolving dependencies for default#iotte$sources;0.1.0-SNAPSHOT [universal-src]
-[debug] resolving dependencies for configuration 'docker'
-[debug] == resolving dependencies for default#iotte$sources;0.1.0-SNAPSHOT [docker]
-[debug] resolving dependencies for configuration 'compile-internal'
-[debug] == resolving dependencies for default#iotte$sources;0.1.0-SNAPSHOT [compile-internal]
-[debug] == resolving dependencies for default#iotte$sources;0.1.0-SNAPSHOT [compile]
-[debug] == resolving dependencies default#iotte$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.7 [compile->default]
-[debug] == resolving dependencies default#iotte$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.7 [compile->runtime]
-[debug] == resolving dependencies default#iotte$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.7 [compile->compile]
-[debug] == resolving dependencies default#iotte$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.7 [compile->master]
-[debug] == resolving dependencies default#iotte$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.7 [compile->compile]
-[debug] == resolving dependencies default#iotte$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.7 [compile->runtime]
-[debug] == resolving dependencies default#iotte$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.7 [compile->compile]
-[debug] == resolving dependencies default#iotte$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.7 [compile->default(compile)]
-[debug] == resolving dependencies default#iotte$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.7 [compile->runtime]
-[debug] == resolving dependencies default#iotte$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.7 [compile->compile]
-[debug] == resolving dependencies default#iotte$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.7 [compile->master]
-[debug] == resolving dependencies default#iotte$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.7 [compile->master]
-[debug] == resolving dependencies for default#iotte$sources;0.1.0-SNAPSHOT [optional]
-[debug] == resolving dependencies for default#iotte$sources;0.1.0-SNAPSHOT [provided]
-[debug] == resolving dependencies default#iotte$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.7 [compile-internal->default]
-[debug] == resolving dependencies default#iotte$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.7 [compile-internal->runtime]
-[debug] == resolving dependencies default#iotte$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.7 [compile-internal->compile]
-[debug] == resolving dependencies default#iotte$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.7 [compile-internal->master]
-[debug] == resolving dependencies default#iotte$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.7 [compile-internal->compile]
-[debug] == resolving dependencies default#iotte$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.7 [compile-internal->runtime]
-[debug] == resolving dependencies default#iotte$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.7 [compile-internal->compile]
-[debug] == resolving dependencies default#iotte$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.7 [compile-internal->default(compile)]
-[debug] == resolving dependencies default#iotte$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.7 [compile-internal->runtime]
-[debug] == resolving dependencies default#iotte$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.7 [compile-internal->compile]
-[debug] == resolving dependencies default#iotte$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.7 [compile-internal->master]
-[debug] == resolving dependencies default#iotte$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.7 [compile-internal->master]
-[debug] resolving dependencies for configuration 'runtime-internal'
-[debug] == resolving dependencies for default#iotte$sources;0.1.0-SNAPSHOT [runtime-internal]
-[debug] == resolving dependencies for default#iotte$sources;0.1.0-SNAPSHOT [runtime]
-[debug] == resolving dependencies for default#iotte$sources;0.1.0-SNAPSHOT [compile]
-[debug] == resolving dependencies default#iotte$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.7 [compile->default]
-[debug] == resolving dependencies default#iotte$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.7 [compile->runtime]
-[debug] == resolving dependencies default#iotte$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.7 [compile->compile]
-[debug] == resolving dependencies default#iotte$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.7 [compile->master]
-[debug] == resolving dependencies default#iotte$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.7 [compile->compile]
-[debug] == resolving dependencies default#iotte$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.7 [compile->runtime]
-[debug] == resolving dependencies default#iotte$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.7 [compile->compile]
-[debug] == resolving dependencies default#iotte$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.7 [compile->default(compile)]
-[debug] == resolving dependencies default#iotte$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.7 [compile->runtime]
-[debug] == resolving dependencies default#iotte$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.7 [compile->compile]
-[debug] == resolving dependencies default#iotte$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.7 [compile->master]
-[debug] == resolving dependencies default#iotte$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.7 [compile->master]
-[debug] == resolving dependencies default#iotte$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.7 [runtime->default]
-[debug] == resolving dependencies default#iotte$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.7 [runtime->runtime]
-[debug] == resolving dependencies default#iotte$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.7 [runtime->compile]
-[debug] == resolving dependencies default#iotte$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.7 [runtime->master]
-[debug] == resolving dependencies default#iotte$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.7 [runtime->compile]
-[debug] == resolving dependencies default#iotte$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.7 [runtime->runtime]
-[debug] == resolving dependencies default#iotte$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.7 [runtime->compile]
-[debug] == resolving dependencies default#iotte$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.7 [runtime->default(compile)]
-[debug] == resolving dependencies default#iotte$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.7 [runtime->runtime]
-[debug] == resolving dependencies default#iotte$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.7 [runtime->compile]
-[debug] == resolving dependencies default#iotte$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.7 [runtime->master]
-[debug] == resolving dependencies default#iotte$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.7 [runtime->master]
-[debug] == resolving dependencies for default#iotte$sources;0.1.0-SNAPSHOT [optional]
-[debug] == resolving dependencies default#iotte$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.7 [runtime-internal->default]
-[debug] == resolving dependencies default#iotte$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.7 [runtime-internal->runtime]
-[debug] == resolving dependencies default#iotte$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.7 [runtime-internal->compile]
-[debug] == resolving dependencies default#iotte$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.7 [runtime-internal->master]
-[debug] == resolving dependencies default#iotte$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.7 [runtime-internal->compile]
-[debug] == resolving dependencies default#iotte$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.7 [runtime-internal->runtime]
-[debug] == resolving dependencies default#iotte$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.7 [runtime-internal->compile]
-[debug] == resolving dependencies default#iotte$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.7 [runtime-internal->default(compile)]
-[debug] == resolving dependencies default#iotte$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.7 [runtime-internal->runtime]
-[debug] == resolving dependencies default#iotte$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.7 [runtime-internal->compile]
-[debug] == resolving dependencies default#iotte$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.7 [runtime-internal->master]
-[debug] == resolving dependencies default#iotte$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.7 [runtime-internal->master]
-[debug] resolving dependencies for configuration 'test-internal'
-[debug] == resolving dependencies for default#iotte$sources;0.1.0-SNAPSHOT [test-internal]
-[debug] == resolving dependencies for default#iotte$sources;0.1.0-SNAPSHOT [test]
-[debug] == resolving dependencies for default#iotte$sources;0.1.0-SNAPSHOT [runtime]
-[debug] == resolving dependencies for default#iotte$sources;0.1.0-SNAPSHOT [compile]
-[debug] == resolving dependencies default#iotte$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.7 [compile->default]
-[debug] == resolving dependencies default#iotte$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.7 [compile->runtime]
-[debug] == resolving dependencies default#iotte$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.7 [compile->compile]
-[debug] == resolving dependencies default#iotte$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.7 [compile->master]
-[debug] == resolving dependencies default#iotte$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.7 [compile->compile]
-[debug] == resolving dependencies default#iotte$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.7 [compile->runtime]
-[debug] == resolving dependencies default#iotte$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.7 [compile->compile]
-[debug] == resolving dependencies default#iotte$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.7 [compile->default(compile)]
-[debug] == resolving dependencies default#iotte$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.7 [compile->runtime]
-[debug] == resolving dependencies default#iotte$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.7 [compile->compile]
-[debug] == resolving dependencies default#iotte$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.7 [compile->master]
-[debug] == resolving dependencies default#iotte$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.7 [compile->master]
-[debug] == resolving dependencies default#iotte$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.7 [runtime->default]
-[debug] == resolving dependencies default#iotte$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.7 [runtime->runtime]
-[debug] == resolving dependencies default#iotte$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.7 [runtime->compile]
-[debug] == resolving dependencies default#iotte$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.7 [runtime->master]
-[debug] == resolving dependencies default#iotte$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.7 [runtime->compile]
-[debug] == resolving dependencies default#iotte$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.7 [runtime->runtime]
-[debug] == resolving dependencies default#iotte$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.7 [runtime->compile]
-[debug] == resolving dependencies default#iotte$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.7 [runtime->default(compile)]
-[debug] == resolving dependencies default#iotte$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.7 [runtime->runtime]
-[debug] == resolving dependencies default#iotte$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.7 [runtime->compile]
-[debug] == resolving dependencies default#iotte$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.7 [runtime->master]
-[debug] == resolving dependencies default#iotte$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.7 [runtime->master]
-[debug] == resolving dependencies default#iotte$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.7 [test->default]
-[debug] == resolving dependencies default#iotte$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.7 [test->runtime]
-[debug] == resolving dependencies default#iotte$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.7 [test->compile]
-[debug] == resolving dependencies default#iotte$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.7 [test->master]
-[debug] == resolving dependencies default#iotte$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.7 [test->compile]
-[debug] == resolving dependencies default#iotte$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.7 [test->runtime]
-[debug] == resolving dependencies default#iotte$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.7 [test->compile]
-[debug] == resolving dependencies default#iotte$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.7 [test->default(compile)]
-[debug] == resolving dependencies default#iotte$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.7 [test->runtime]
-[debug] == resolving dependencies default#iotte$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.7 [test->compile]
-[debug] == resolving dependencies default#iotte$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.7 [test->master]
-[debug] == resolving dependencies default#iotte$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.7 [test->master]
-[debug] == resolving dependencies for default#iotte$sources;0.1.0-SNAPSHOT [optional]
-[debug] == resolving dependencies for default#iotte$sources;0.1.0-SNAPSHOT [provided]
-[debug] == resolving dependencies default#iotte$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.7 [test-internal->default]
-[debug] == resolving dependencies default#iotte$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.7 [test-internal->runtime]
-[debug] == resolving dependencies default#iotte$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.7 [test-internal->compile]
-[debug] == resolving dependencies default#iotte$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.7 [test-internal->master]
-[debug] == resolving dependencies default#iotte$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.7 [test-internal->compile]
-[debug] == resolving dependencies default#iotte$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.7 [test-internal->runtime]
-[debug] == resolving dependencies default#iotte$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.7 [test-internal->compile]
-[debug] == resolving dependencies default#iotte$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.7 [test-internal->default(compile)]
-[debug] == resolving dependencies default#iotte$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.7 [test-internal->runtime]
-[debug] == resolving dependencies default#iotte$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.7 [test-internal->compile]
-[debug] == resolving dependencies default#iotte$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.7 [test-internal->master]
-[debug] == resolving dependencies default#iotte$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.7 [test-internal->master]
-[debug] resolving dependencies for configuration 'plugin'
-[debug] == resolving dependencies for default#iotte$sources;0.1.0-SNAPSHOT [plugin]
-[debug] resolving dependencies for configuration 'pom'
-[debug] == resolving dependencies for default#iotte$sources;0.1.0-SNAPSHOT [pom]
-[debug] resolving dependencies for configuration 'scala-tool'
-[debug] == resolving dependencies for default#iotte$sources;0.1.0-SNAPSHOT [scala-tool]
-[debug] == resolving dependencies default#iotte$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-compiler;2.12.7 [scala-tool->default]
-[debug] sbt-chain: Checking cache for: dependency: org.scala-lang#scala-compiler;2.12.7 {scala-tool=[default, compile, runtime, optional, optional(default), master]}
-[debug] sbt-chain: module revision found in cache: org.scala-lang#scala-compiler;2.12.7
-[debug] 	found org.scala-lang#scala-compiler;2.12.7 in sbt-chain
-[debug] == resolving dependencies default#iotte$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-compiler;2.12.7 [scala-tool->runtime]
-[debug] == resolving dependencies default#iotte$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-compiler;2.12.7 [scala-tool->compile]
-[debug] == resolving dependencies default#iotte$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-compiler;2.12.7 [scala-tool->master]
-[debug] == resolving dependencies default#iotte$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-compiler;2.12.7 [scala-tool->compile]
-[debug] == resolving dependencies default#iotte$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-compiler;2.12.7 [scala-tool->runtime]
-[debug] == resolving dependencies default#iotte$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-compiler;2.12.7 [scala-tool->compile]
-[debug] == resolving dependencies default#iotte$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-compiler;2.12.7 [scala-tool->optional]
-[debug] == resolving dependencies default#iotte$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-compiler;2.12.7 [scala-tool->optional(default)]
-[debug] == resolving dependencies default#iotte$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-compiler;2.12.7 [scala-tool->master]
-[debug] == resolving dependencies default#iotte$sources;0.1.0-SNAPSHOT->org.scala-lang.modules#scala-xml_2.12;1.0.6 [scala-tool->master(*)]
-[debug] sbt-chain: Checking cache for: dependency: org.scala-lang.modules#scala-xml_2.12;1.0.6 {scala-tool=[master(*), compile, runtime(*), runtime, compile(*), master]}
-[debug] sbt-chain: module revision found in cache: org.scala-lang.modules#scala-xml_2.12;1.0.6
-[debug] 	found org.scala-lang.modules#scala-xml_2.12;1.0.6 in sbt-chain
-[debug] == resolving dependencies default#iotte$sources;0.1.0-SNAPSHOT->org.scala-lang.modules#scala-xml_2.12;1.0.6 [scala-tool->compile]
-[debug] == resolving dependencies default#iotte$sources;0.1.0-SNAPSHOT->org.scala-lang.modules#scala-xml_2.12;1.0.6 [scala-tool->runtime(*)]
-[debug] == resolving dependencies default#iotte$sources;0.1.0-SNAPSHOT->org.scala-lang.modules#scala-xml_2.12;1.0.6 [scala-tool->compile]
-[debug] == resolving dependencies default#iotte$sources;0.1.0-SNAPSHOT->org.scala-lang.modules#scala-xml_2.12;1.0.6 [scala-tool->runtime]
-[debug] == resolving dependencies default#iotte$sources;0.1.0-SNAPSHOT->org.scala-lang.modules#scala-xml_2.12;1.0.6 [scala-tool->compile]
-[debug] == resolving dependencies default#iotte$sources;0.1.0-SNAPSHOT->org.scala-lang.modules#scala-xml_2.12;1.0.6 [scala-tool->compile(*)]
-[debug] == resolving dependencies default#iotte$sources;0.1.0-SNAPSHOT->org.scala-lang.modules#scala-xml_2.12;1.0.6 [scala-tool->master]
-[debug] == resolving dependencies default#iotte$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-reflect;2.12.7 [scala-tool->master(*)]
-[debug] sbt-chain: Checking cache for: dependency: org.scala-lang#scala-reflect;2.12.7 {scala-tool=[master(*), compile, runtime(*), runtime, compile(*), master]}
-[debug] sbt-chain: module revision found in cache: org.scala-lang#scala-reflect;2.12.7
-[debug] 	found org.scala-lang#scala-reflect;2.12.7 in sbt-chain
-[debug] 	[2.12.7] org.scala-lang#scala-reflect;2.12.7
-[debug] == resolving dependencies default#iotte$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-reflect;2.12.7 [scala-tool->compile]
-[debug] == resolving dependencies default#iotte$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-reflect;2.12.7 [scala-tool->runtime(*)]
-[debug] == resolving dependencies default#iotte$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-reflect;2.12.7 [scala-tool->compile]
-[debug] == resolving dependencies default#iotte$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-reflect;2.12.7 [scala-tool->runtime]
-[debug] == resolving dependencies default#iotte$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-reflect;2.12.7 [scala-tool->compile]
-[debug] == resolving dependencies default#iotte$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-reflect;2.12.7 [scala-tool->compile(*)]
-[debug] == resolving dependencies default#iotte$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-reflect;2.12.7 [scala-tool->master]
-[debug] == resolving dependencies default#iotte$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.7 [scala-tool->default]
-[debug] == resolving dependencies default#iotte$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.7 [scala-tool->runtime]
-[debug] == resolving dependencies default#iotte$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.7 [scala-tool->compile]
-[debug] == resolving dependencies default#iotte$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.7 [scala-tool->master]
-[debug] == resolving dependencies default#iotte$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.7 [scala-tool->master(*)]
-[debug] == resolving dependencies default#iotte$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.7 [scala-tool->compile]
-[debug] == resolving dependencies default#iotte$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.7 [scala-tool->runtime(*)]
-[debug] == resolving dependencies default#iotte$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.7 [scala-tool->compile]
-[debug] == resolving dependencies default#iotte$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.7 [scala-tool->runtime]
-[debug] == resolving dependencies default#iotte$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.7 [scala-tool->compile]
-[debug] == resolving dependencies default#iotte$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.7 [scala-tool->optional]
-[debug] == resolving dependencies default#iotte$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.7 [scala-tool->optional(default)]
-[debug] == resolving dependencies default#iotte$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.7 [scala-tool->compile(*)]
-[debug] == resolving dependencies default#iotte$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.7 [scala-tool->master]
-[debug] == resolving dependencies default#iotte$sources;0.1.0-SNAPSHOT->jline#jline;2.14.6 [scala-tool->master(*)]
-[debug] sbt-chain: Checking cache for: dependency: jline#jline;2.14.6 {scala-tool=[master(*), compile, compile(*), master]}
-[debug] sbt-chain: module revision found in cache: jline#jline;2.14.6
-[debug] 	found jline#jline;2.14.6 in sbt-chain
-[debug] == resolving dependencies default#iotte$sources;0.1.0-SNAPSHOT->jline#jline;2.14.6 [scala-tool->compile]
-[debug] == resolving dependencies default#iotte$sources;0.1.0-SNAPSHOT->jline#jline;2.14.6 [scala-tool->compile(*)]
-[debug] == resolving dependencies default#iotte$sources;0.1.0-SNAPSHOT->jline#jline;2.14.6 [scala-tool->master]
-[debug] 	resolved ivy file produced in cache
-[debug] :: downloading artifacts ::
-[debug] 	[NOT REQUIRED] org.scala-lang#scala-library;2.12.7!scala-library.jar(src)
-[debug] 	[NOT REQUIRED] org.scala-lang#scala-compiler;2.12.7!scala-compiler.jar(src)
-[debug] 	[NOT REQUIRED] org.scala-lang.modules#scala-xml_2.12;1.0.6!scala-xml_2.12.jar(src)
-[debug] 	[NOT REQUIRED] org.scala-lang#scala-reflect;2.12.7!scala-reflect.jar(src)
-[debug] 	[NOT REQUIRED] jline#jline;2.14.6!jline.jar(src)
-[debug] :: resolution report :: resolve 75ms :: artifacts dl 2ms
-[debug] 	report for default#iotte$sources;0.1.0-SNAPSHOT compile produced in /Users/schneist/Documents/GitHub/IoTTE/target/scala-2.12/resolution-cache/reports/default-iotte$sources-compile.xml
-[debug] 	report for default#iotte$sources;0.1.0-SNAPSHOT runtime produced in /Users/schneist/Documents/GitHub/IoTTE/target/scala-2.12/resolution-cache/reports/default-iotte$sources-runtime.xml
-[debug] 	report for default#iotte$sources;0.1.0-SNAPSHOT test produced in /Users/schneist/Documents/GitHub/IoTTE/target/scala-2.12/resolution-cache/reports/default-iotte$sources-test.xml
-[debug] 	report for default#iotte$sources;0.1.0-SNAPSHOT provided produced in /Users/schneist/Documents/GitHub/IoTTE/target/scala-2.12/resolution-cache/reports/default-iotte$sources-provided.xml
-[debug] 	report for default#iotte$sources;0.1.0-SNAPSHOT optional produced in /Users/schneist/Documents/GitHub/IoTTE/target/scala-2.12/resolution-cache/reports/default-iotte$sources-optional.xml
-[debug] 	report for default#iotte$sources;0.1.0-SNAPSHOT universal produced in /Users/schneist/Documents/GitHub/IoTTE/target/scala-2.12/resolution-cache/reports/default-iotte$sources-universal.xml
-[debug] 	report for default#iotte$sources;0.1.0-SNAPSHOT universal-docs produced in /Users/schneist/Documents/GitHub/IoTTE/target/scala-2.12/resolution-cache/reports/default-iotte$sources-universal-docs.xml
-[debug] 	report for default#iotte$sources;0.1.0-SNAPSHOT universal-src produced in /Users/schneist/Documents/GitHub/IoTTE/target/scala-2.12/resolution-cache/reports/default-iotte$sources-universal-src.xml
-[debug] 	report for default#iotte$sources;0.1.0-SNAPSHOT docker produced in /Users/schneist/Documents/GitHub/IoTTE/target/scala-2.12/resolution-cache/reports/default-iotte$sources-docker.xml
-[debug] 	report for default#iotte$sources;0.1.0-SNAPSHOT compile-internal produced in /Users/schneist/Documents/GitHub/IoTTE/target/scala-2.12/resolution-cache/reports/default-iotte$sources-compile-internal.xml
-[debug] 	report for default#iotte$sources;0.1.0-SNAPSHOT runtime-internal produced in /Users/schneist/Documents/GitHub/IoTTE/target/scala-2.12/resolution-cache/reports/default-iotte$sources-runtime-internal.xml
-[debug] 	report for default#iotte$sources;0.1.0-SNAPSHOT test-internal produced in /Users/schneist/Documents/GitHub/IoTTE/target/scala-2.12/resolution-cache/reports/default-iotte$sources-test-internal.xml
-[debug] 	report for default#iotte$sources;0.1.0-SNAPSHOT plugin produced in /Users/schneist/Documents/GitHub/IoTTE/target/scala-2.12/resolution-cache/reports/default-iotte$sources-plugin.xml
-[debug] 	report for default#iotte$sources;0.1.0-SNAPSHOT pom produced in /Users/schneist/Documents/GitHub/IoTTE/target/scala-2.12/resolution-cache/reports/default-iotte$sources-pom.xml
-[debug] 	report for default#iotte$sources;0.1.0-SNAPSHOT scala-tool produced in /Users/schneist/Documents/GitHub/IoTTE/target/scala-2.12/resolution-cache/reports/default-iotte$sources-scala-tool.xml
-[debug] 	resolve done (75ms resolve - 2ms download)
+[0m[[0m[0mdebug[0m] [0m[0m:: resolving dependencies :: default#iotte$sources;0.1.0-SNAPSHOT[0m
+[0m[[0m[0mdebug[0m] [0m[0m	confs: [compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, pom, scala-tool][0m
+[0m[[0m[0mdebug[0m] [0m[0m	validate = true[0m
+[0m[[0m[0mdebug[0m] [0m[0m	refresh = false[0m
+[0m[[0m[0mdebug[0m] [0m[0mresolving dependencies for configuration 'compile'[0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies for default#iotte$sources;0.1.0-SNAPSHOT [compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#iotte$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.7 [compile->default][0m
+[0m[[0m[0mdebug[0m] [0m[0msbt-chain: Checking cache for: dependency: org.scala-lang#scala-library;2.12.7 {compile=[default, compile, runtime, default(compile), master], runtime=[default, compile, runtime, default(compile), master], test=[default, compile, runtime, default(compile), master], compile-internal=[default, compile, runtime, default(compile), master], runtime-internal=[default, compile, runtime, default(compile), master], test-internal=[default, compile, runtime, default(compile), master], scala-tool=[default, master(*), compile, runtime(*), runtime, optional, optional(default), compile(*), master]}[0m
+[0m[[0m[0mdebug[0m] [0m[0msbt-chain: module revision found in cache: org.scala-lang#scala-library;2.12.7[0m
+[0m[[0m[0mdebug[0m] [0m[0m	found org.scala-lang#scala-library;2.12.7 in sbt-chain[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[2.12.7] org.scala-lang#scala-library;2.12.7[0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#iotte$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.7 [compile->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#iotte$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.7 [compile->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#iotte$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.7 [compile->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#iotte$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.7 [compile->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#iotte$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.7 [compile->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#iotte$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.7 [compile->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#iotte$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.7 [compile->default(compile)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#iotte$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.7 [compile->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#iotte$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.7 [compile->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#iotte$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.7 [compile->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#iotte$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.7 [compile->master][0m
+[0m[[0m[0mdebug[0m] [0m[0mresolving dependencies for configuration 'runtime'[0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies for default#iotte$sources;0.1.0-SNAPSHOT [runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies for default#iotte$sources;0.1.0-SNAPSHOT [compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#iotte$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.7 [compile->default][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#iotte$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.7 [compile->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#iotte$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.7 [compile->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#iotte$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.7 [compile->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#iotte$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.7 [compile->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#iotte$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.7 [compile->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#iotte$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.7 [compile->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#iotte$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.7 [compile->default(compile)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#iotte$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.7 [compile->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#iotte$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.7 [compile->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#iotte$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.7 [compile->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#iotte$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.7 [compile->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#iotte$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.7 [runtime->default][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#iotte$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.7 [runtime->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#iotte$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.7 [runtime->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#iotte$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.7 [runtime->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#iotte$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.7 [runtime->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#iotte$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.7 [runtime->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#iotte$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.7 [runtime->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#iotte$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.7 [runtime->default(compile)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#iotte$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.7 [runtime->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#iotte$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.7 [runtime->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#iotte$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.7 [runtime->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#iotte$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.7 [runtime->master][0m
+[0m[[0m[0mdebug[0m] [0m[0mresolving dependencies for configuration 'test'[0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies for default#iotte$sources;0.1.0-SNAPSHOT [test][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies for default#iotte$sources;0.1.0-SNAPSHOT [runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies for default#iotte$sources;0.1.0-SNAPSHOT [compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#iotte$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.7 [compile->default][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#iotte$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.7 [compile->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#iotte$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.7 [compile->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#iotte$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.7 [compile->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#iotte$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.7 [compile->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#iotte$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.7 [compile->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#iotte$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.7 [compile->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#iotte$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.7 [compile->default(compile)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#iotte$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.7 [compile->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#iotte$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.7 [compile->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#iotte$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.7 [compile->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#iotte$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.7 [compile->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#iotte$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.7 [runtime->default][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#iotte$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.7 [runtime->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#iotte$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.7 [runtime->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#iotte$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.7 [runtime->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#iotte$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.7 [runtime->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#iotte$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.7 [runtime->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#iotte$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.7 [runtime->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#iotte$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.7 [runtime->default(compile)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#iotte$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.7 [runtime->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#iotte$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.7 [runtime->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#iotte$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.7 [runtime->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#iotte$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.7 [runtime->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#iotte$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.7 [test->default][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#iotte$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.7 [test->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#iotte$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.7 [test->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#iotte$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.7 [test->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#iotte$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.7 [test->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#iotte$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.7 [test->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#iotte$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.7 [test->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#iotte$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.7 [test->default(compile)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#iotte$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.7 [test->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#iotte$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.7 [test->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#iotte$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.7 [test->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#iotte$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.7 [test->master][0m
+[0m[[0m[0mdebug[0m] [0m[0mresolving dependencies for configuration 'provided'[0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies for default#iotte$sources;0.1.0-SNAPSHOT [provided][0m
+[0m[[0m[0mdebug[0m] [0m[0mresolving dependencies for configuration 'optional'[0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies for default#iotte$sources;0.1.0-SNAPSHOT [optional][0m
+[0m[[0m[0mdebug[0m] [0m[0mresolving dependencies for configuration 'compile-internal'[0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies for default#iotte$sources;0.1.0-SNAPSHOT [compile-internal][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies for default#iotte$sources;0.1.0-SNAPSHOT [compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#iotte$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.7 [compile->default][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#iotte$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.7 [compile->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#iotte$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.7 [compile->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#iotte$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.7 [compile->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#iotte$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.7 [compile->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#iotte$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.7 [compile->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#iotte$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.7 [compile->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#iotte$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.7 [compile->default(compile)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#iotte$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.7 [compile->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#iotte$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.7 [compile->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#iotte$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.7 [compile->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#iotte$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.7 [compile->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies for default#iotte$sources;0.1.0-SNAPSHOT [optional][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies for default#iotte$sources;0.1.0-SNAPSHOT [provided][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#iotte$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.7 [compile-internal->default][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#iotte$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.7 [compile-internal->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#iotte$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.7 [compile-internal->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#iotte$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.7 [compile-internal->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#iotte$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.7 [compile-internal->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#iotte$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.7 [compile-internal->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#iotte$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.7 [compile-internal->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#iotte$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.7 [compile-internal->default(compile)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#iotte$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.7 [compile-internal->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#iotte$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.7 [compile-internal->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#iotte$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.7 [compile-internal->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#iotte$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.7 [compile-internal->master][0m
+[0m[[0m[0mdebug[0m] [0m[0mresolving dependencies for configuration 'runtime-internal'[0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies for default#iotte$sources;0.1.0-SNAPSHOT [runtime-internal][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies for default#iotte$sources;0.1.0-SNAPSHOT [runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies for default#iotte$sources;0.1.0-SNAPSHOT [compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#iotte$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.7 [compile->default][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#iotte$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.7 [compile->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#iotte$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.7 [compile->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#iotte$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.7 [compile->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#iotte$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.7 [compile->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#iotte$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.7 [compile->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#iotte$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.7 [compile->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#iotte$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.7 [compile->default(compile)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#iotte$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.7 [compile->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#iotte$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.7 [compile->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#iotte$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.7 [compile->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#iotte$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.7 [compile->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#iotte$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.7 [runtime->default][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#iotte$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.7 [runtime->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#iotte$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.7 [runtime->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#iotte$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.7 [runtime->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#iotte$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.7 [runtime->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#iotte$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.7 [runtime->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#iotte$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.7 [runtime->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#iotte$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.7 [runtime->default(compile)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#iotte$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.7 [runtime->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#iotte$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.7 [runtime->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#iotte$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.7 [runtime->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#iotte$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.7 [runtime->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies for default#iotte$sources;0.1.0-SNAPSHOT [optional][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#iotte$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.7 [runtime-internal->default][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#iotte$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.7 [runtime-internal->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#iotte$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.7 [runtime-internal->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#iotte$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.7 [runtime-internal->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#iotte$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.7 [runtime-internal->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#iotte$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.7 [runtime-internal->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#iotte$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.7 [runtime-internal->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#iotte$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.7 [runtime-internal->default(compile)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#iotte$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.7 [runtime-internal->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#iotte$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.7 [runtime-internal->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#iotte$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.7 [runtime-internal->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#iotte$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.7 [runtime-internal->master][0m
+[0m[[0m[0mdebug[0m] [0m[0mresolving dependencies for configuration 'test-internal'[0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies for default#iotte$sources;0.1.0-SNAPSHOT [test-internal][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies for default#iotte$sources;0.1.0-SNAPSHOT [test][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies for default#iotte$sources;0.1.0-SNAPSHOT [runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies for default#iotte$sources;0.1.0-SNAPSHOT [compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#iotte$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.7 [compile->default][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#iotte$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.7 [compile->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#iotte$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.7 [compile->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#iotte$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.7 [compile->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#iotte$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.7 [compile->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#iotte$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.7 [compile->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#iotte$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.7 [compile->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#iotte$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.7 [compile->default(compile)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#iotte$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.7 [compile->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#iotte$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.7 [compile->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#iotte$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.7 [compile->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#iotte$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.7 [compile->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#iotte$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.7 [runtime->default][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#iotte$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.7 [runtime->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#iotte$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.7 [runtime->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#iotte$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.7 [runtime->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#iotte$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.7 [runtime->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#iotte$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.7 [runtime->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#iotte$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.7 [runtime->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#iotte$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.7 [runtime->default(compile)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#iotte$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.7 [runtime->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#iotte$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.7 [runtime->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#iotte$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.7 [runtime->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#iotte$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.7 [runtime->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#iotte$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.7 [test->default][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#iotte$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.7 [test->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#iotte$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.7 [test->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#iotte$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.7 [test->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#iotte$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.7 [test->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#iotte$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.7 [test->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#iotte$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.7 [test->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#iotte$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.7 [test->default(compile)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#iotte$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.7 [test->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#iotte$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.7 [test->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#iotte$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.7 [test->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#iotte$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.7 [test->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies for default#iotte$sources;0.1.0-SNAPSHOT [optional][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies for default#iotte$sources;0.1.0-SNAPSHOT [provided][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#iotte$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.7 [test-internal->default][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#iotte$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.7 [test-internal->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#iotte$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.7 [test-internal->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#iotte$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.7 [test-internal->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#iotte$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.7 [test-internal->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#iotte$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.7 [test-internal->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#iotte$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.7 [test-internal->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#iotte$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.7 [test-internal->default(compile)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#iotte$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.7 [test-internal->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#iotte$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.7 [test-internal->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#iotte$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.7 [test-internal->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#iotte$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.7 [test-internal->master][0m
+[0m[[0m[0mdebug[0m] [0m[0mresolving dependencies for configuration 'plugin'[0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies for default#iotte$sources;0.1.0-SNAPSHOT [plugin][0m
+[0m[[0m[0mdebug[0m] [0m[0mresolving dependencies for configuration 'pom'[0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies for default#iotte$sources;0.1.0-SNAPSHOT [pom][0m
+[0m[[0m[0mdebug[0m] [0m[0mresolving dependencies for configuration 'scala-tool'[0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies for default#iotte$sources;0.1.0-SNAPSHOT [scala-tool][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#iotte$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-compiler;2.12.7 [scala-tool->default][0m
+[0m[[0m[0mdebug[0m] [0m[0msbt-chain: Checking cache for: dependency: org.scala-lang#scala-compiler;2.12.7 {scala-tool=[default, compile, runtime, optional, optional(default), master]}[0m
+[0m[[0m[0mdebug[0m] [0m[0msbt-chain: module revision found in cache: org.scala-lang#scala-compiler;2.12.7[0m
+[0m[[0m[0mdebug[0m] [0m[0m	found org.scala-lang#scala-compiler;2.12.7 in sbt-chain[0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#iotte$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-compiler;2.12.7 [scala-tool->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#iotte$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-compiler;2.12.7 [scala-tool->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#iotte$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-compiler;2.12.7 [scala-tool->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#iotte$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-compiler;2.12.7 [scala-tool->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#iotte$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-compiler;2.12.7 [scala-tool->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#iotte$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-compiler;2.12.7 [scala-tool->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#iotte$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-compiler;2.12.7 [scala-tool->optional][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#iotte$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-compiler;2.12.7 [scala-tool->optional(default)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#iotte$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-compiler;2.12.7 [scala-tool->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#iotte$sources;0.1.0-SNAPSHOT->org.scala-lang.modules#scala-xml_2.12;1.0.6 [scala-tool->master(*)][0m
+[0m[[0m[0mdebug[0m] [0m[0msbt-chain: Checking cache for: dependency: org.scala-lang.modules#scala-xml_2.12;1.0.6 {scala-tool=[master(*), compile, runtime(*), runtime, compile(*), master]}[0m
+[0m[[0m[0mdebug[0m] [0m[0msbt-chain: module revision found in cache: org.scala-lang.modules#scala-xml_2.12;1.0.6[0m
+[0m[[0m[0mdebug[0m] [0m[0m	found org.scala-lang.modules#scala-xml_2.12;1.0.6 in sbt-chain[0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#iotte$sources;0.1.0-SNAPSHOT->org.scala-lang.modules#scala-xml_2.12;1.0.6 [scala-tool->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#iotte$sources;0.1.0-SNAPSHOT->org.scala-lang.modules#scala-xml_2.12;1.0.6 [scala-tool->runtime(*)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#iotte$sources;0.1.0-SNAPSHOT->org.scala-lang.modules#scala-xml_2.12;1.0.6 [scala-tool->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#iotte$sources;0.1.0-SNAPSHOT->org.scala-lang.modules#scala-xml_2.12;1.0.6 [scala-tool->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#iotte$sources;0.1.0-SNAPSHOT->org.scala-lang.modules#scala-xml_2.12;1.0.6 [scala-tool->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#iotte$sources;0.1.0-SNAPSHOT->org.scala-lang.modules#scala-xml_2.12;1.0.6 [scala-tool->compile(*)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#iotte$sources;0.1.0-SNAPSHOT->org.scala-lang.modules#scala-xml_2.12;1.0.6 [scala-tool->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#iotte$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-reflect;2.12.7 [scala-tool->master(*)][0m
+[0m[[0m[0mdebug[0m] [0m[0msbt-chain: Checking cache for: dependency: org.scala-lang#scala-reflect;2.12.7 {scala-tool=[master(*), compile, runtime(*), runtime, compile(*), master]}[0m
+[0m[[0m[0mdebug[0m] [0m[0msbt-chain: module revision found in cache: org.scala-lang#scala-reflect;2.12.7[0m
+[0m[[0m[0mdebug[0m] [0m[0m	found org.scala-lang#scala-reflect;2.12.7 in sbt-chain[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[2.12.7] org.scala-lang#scala-reflect;2.12.7[0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#iotte$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-reflect;2.12.7 [scala-tool->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#iotte$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-reflect;2.12.7 [scala-tool->runtime(*)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#iotte$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-reflect;2.12.7 [scala-tool->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#iotte$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-reflect;2.12.7 [scala-tool->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#iotte$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-reflect;2.12.7 [scala-tool->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#iotte$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-reflect;2.12.7 [scala-tool->compile(*)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#iotte$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-reflect;2.12.7 [scala-tool->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#iotte$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.7 [scala-tool->default][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#iotte$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.7 [scala-tool->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#iotte$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.7 [scala-tool->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#iotte$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.7 [scala-tool->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#iotte$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.7 [scala-tool->master(*)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#iotte$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.7 [scala-tool->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#iotte$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.7 [scala-tool->runtime(*)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#iotte$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.7 [scala-tool->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#iotte$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.7 [scala-tool->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#iotte$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.7 [scala-tool->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#iotte$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.7 [scala-tool->optional][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#iotte$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.7 [scala-tool->optional(default)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#iotte$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.7 [scala-tool->compile(*)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#iotte$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.7 [scala-tool->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#iotte$sources;0.1.0-SNAPSHOT->jline#jline;2.14.6 [scala-tool->master(*)][0m
+[0m[[0m[0mdebug[0m] [0m[0msbt-chain: Checking cache for: dependency: jline#jline;2.14.6 {scala-tool=[master(*), compile, compile(*), master]}[0m
+[0m[[0m[0mdebug[0m] [0m[0msbt-chain: module revision found in cache: jline#jline;2.14.6[0m
+[0m[[0m[0mdebug[0m] [0m[0m	found jline#jline;2.14.6 in sbt-chain[0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#iotte$sources;0.1.0-SNAPSHOT->jline#jline;2.14.6 [scala-tool->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#iotte$sources;0.1.0-SNAPSHOT->jline#jline;2.14.6 [scala-tool->compile(*)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#iotte$sources;0.1.0-SNAPSHOT->jline#jline;2.14.6 [scala-tool->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m	resolved ivy file produced in cache[0m
+[0m[[0m[0mdebug[0m] [0m[0m:: downloading artifacts ::[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.scala-lang#scala-compiler;2.12.7!scala-compiler.jar(src)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.scala-lang#scala-library;2.12.7!scala-library.jar(src)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.scala-lang.modules#scala-xml_2.12;1.0.6!scala-xml_2.12.jar(src)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.scala-lang#scala-reflect;2.12.7!scala-reflect.jar(src)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] jline#jline;2.14.6!jline.jar(src)[0m
+[0m[[0m[0mdebug[0m] [0m[0m:: resolution report :: resolve 43ms :: artifacts dl 1ms[0m
+[0m[[0m[0mdebug[0m] [0m[0m	report for default#iotte$sources;0.1.0-SNAPSHOT compile produced in /Users/schneist/Documents/GitHub/IoTTE/target/scala-2.12/resolution-cache/reports/default-iotte$sources-compile.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0m	report for default#iotte$sources;0.1.0-SNAPSHOT runtime produced in /Users/schneist/Documents/GitHub/IoTTE/target/scala-2.12/resolution-cache/reports/default-iotte$sources-runtime.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0m	report for default#iotte$sources;0.1.0-SNAPSHOT test produced in /Users/schneist/Documents/GitHub/IoTTE/target/scala-2.12/resolution-cache/reports/default-iotte$sources-test.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0m	report for default#iotte$sources;0.1.0-SNAPSHOT provided produced in /Users/schneist/Documents/GitHub/IoTTE/target/scala-2.12/resolution-cache/reports/default-iotte$sources-provided.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0m	report for default#iotte$sources;0.1.0-SNAPSHOT optional produced in /Users/schneist/Documents/GitHub/IoTTE/target/scala-2.12/resolution-cache/reports/default-iotte$sources-optional.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0m	report for default#iotte$sources;0.1.0-SNAPSHOT compile-internal produced in /Users/schneist/Documents/GitHub/IoTTE/target/scala-2.12/resolution-cache/reports/default-iotte$sources-compile-internal.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0m	report for default#iotte$sources;0.1.0-SNAPSHOT runtime-internal produced in /Users/schneist/Documents/GitHub/IoTTE/target/scala-2.12/resolution-cache/reports/default-iotte$sources-runtime-internal.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0m	report for default#iotte$sources;0.1.0-SNAPSHOT test-internal produced in /Users/schneist/Documents/GitHub/IoTTE/target/scala-2.12/resolution-cache/reports/default-iotte$sources-test-internal.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0m	report for default#iotte$sources;0.1.0-SNAPSHOT plugin produced in /Users/schneist/Documents/GitHub/IoTTE/target/scala-2.12/resolution-cache/reports/default-iotte$sources-plugin.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0m	report for default#iotte$sources;0.1.0-SNAPSHOT pom produced in /Users/schneist/Documents/GitHub/IoTTE/target/scala-2.12/resolution-cache/reports/default-iotte$sources-pom.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0m	report for default#iotte$sources;0.1.0-SNAPSHOT scala-tool produced in /Users/schneist/Documents/GitHub/IoTTE/target/scala-2.12/resolution-cache/reports/default-iotte$sources-scala-tool.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0m	resolve done (43ms resolve - 1ms download)[0m

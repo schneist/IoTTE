@@ -1,6 +1,6 @@
 [0m[[0m[0minfo[0m] [0m[0mUpdating ...[0m
 [0m[[0m[0mdebug[0m] [0m[0m:: resolving dependencies :: default#iotte_2.12;0.1.0-SNAPSHOT[0m
-[0m[[0m[0mdebug[0m] [0m[0m	confs: [compile, runtime, test, provided, optional, universal, universal-docs, universal-src, docker, compile-internal, runtime-internal, test-internal, plugin, pom, scala-tool][0m
+[0m[[0m[0mdebug[0m] [0m[0m	confs: [compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, pom, scala-tool][0m
 [0m[[0m[0mdebug[0m] [0m[0m	validate = true[0m
 [0m[[0m[0mdebug[0m] [0m[0m	refresh = false[0m
 [0m[[0m[0mdebug[0m] [0m[0mresolving dependencies for configuration 'compile'[0m
@@ -44,14 +44,6 @@
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies for default#iotte_2.12;0.1.0-SNAPSHOT [provided][0m
 [0m[[0m[0mdebug[0m] [0m[0mresolving dependencies for configuration 'optional'[0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies for default#iotte_2.12;0.1.0-SNAPSHOT [optional][0m
-[0m[[0m[0mdebug[0m] [0m[0mresolving dependencies for configuration 'universal'[0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies for default#iotte_2.12;0.1.0-SNAPSHOT [universal][0m
-[0m[[0m[0mdebug[0m] [0m[0mresolving dependencies for configuration 'universal-docs'[0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies for default#iotte_2.12;0.1.0-SNAPSHOT [universal-docs][0m
-[0m[[0m[0mdebug[0m] [0m[0mresolving dependencies for configuration 'universal-src'[0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies for default#iotte_2.12;0.1.0-SNAPSHOT [universal-src][0m
-[0m[[0m[0mdebug[0m] [0m[0mresolving dependencies for configuration 'docker'[0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies for default#iotte_2.12;0.1.0-SNAPSHOT [docker][0m
 [0m[[0m[0mdebug[0m] [0m[0mresolving dependencies for configuration 'compile-internal'[0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies for default#iotte_2.12;0.1.0-SNAPSHOT [compile-internal][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies for default#iotte_2.12;0.1.0-SNAPSHOT [compile][0m
@@ -260,26 +252,22 @@
 [0m[[0m[0mdebug[0m] [0m[0mignoring unhandled DependencyDescriptorMediator: class sbt.internal.librarymanagement.IvyScalaUtil$OverrideScalaMediator[0m
 [0m[[0m[0mdebug[0m] [0m[0m	resolved ivy file produced in cache[0m
 [0m[[0m[0mdebug[0m] [0m[0m:: downloading artifacts ::[0m
-[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] jline#jline;2.14.6!jline.jar[0m
-[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.scala-lang#scala-reflect;2.12.7!scala-reflect.jar[0m
-[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.scala-lang#scala-compiler;2.12.7!scala-compiler.jar[0m
 [0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.scala-lang#scala-library;2.12.7!scala-library.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] jline#jline;2.14.6!jline.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.scala-lang#scala-compiler;2.12.7!scala-compiler.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.scala-lang#scala-reflect;2.12.7!scala-reflect.jar[0m
 [0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.scala-lang.modules#scala-xml_2.12;1.0.6!scala-xml_2.12.jar(bundle)[0m
-[0m[[0m[0mdebug[0m] [0m[0m:: resolution report :: resolve 29ms :: artifacts dl 2ms[0m
+[0m[[0m[0mdebug[0m] [0m[0m:: resolution report :: resolve 40ms :: artifacts dl 1ms[0m
 [0m[[0m[0mdebug[0m] [0m[0m	report for default#iotte_2.12;0.1.0-SNAPSHOT compile produced in /Users/schneist/Documents/GitHub/IoTTE/target/scala-2.12/resolution-cache/reports/default-iotte_2.12-compile.xml[0m
 [0m[[0m[0mdebug[0m] [0m[0m	report for default#iotte_2.12;0.1.0-SNAPSHOT runtime produced in /Users/schneist/Documents/GitHub/IoTTE/target/scala-2.12/resolution-cache/reports/default-iotte_2.12-runtime.xml[0m
 [0m[[0m[0mdebug[0m] [0m[0m	report for default#iotte_2.12;0.1.0-SNAPSHOT test produced in /Users/schneist/Documents/GitHub/IoTTE/target/scala-2.12/resolution-cache/reports/default-iotte_2.12-test.xml[0m
 [0m[[0m[0mdebug[0m] [0m[0m	report for default#iotte_2.12;0.1.0-SNAPSHOT provided produced in /Users/schneist/Documents/GitHub/IoTTE/target/scala-2.12/resolution-cache/reports/default-iotte_2.12-provided.xml[0m
 [0m[[0m[0mdebug[0m] [0m[0m	report for default#iotte_2.12;0.1.0-SNAPSHOT optional produced in /Users/schneist/Documents/GitHub/IoTTE/target/scala-2.12/resolution-cache/reports/default-iotte_2.12-optional.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0m	report for default#iotte_2.12;0.1.0-SNAPSHOT universal produced in /Users/schneist/Documents/GitHub/IoTTE/target/scala-2.12/resolution-cache/reports/default-iotte_2.12-universal.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0m	report for default#iotte_2.12;0.1.0-SNAPSHOT universal-docs produced in /Users/schneist/Documents/GitHub/IoTTE/target/scala-2.12/resolution-cache/reports/default-iotte_2.12-universal-docs.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0m	report for default#iotte_2.12;0.1.0-SNAPSHOT universal-src produced in /Users/schneist/Documents/GitHub/IoTTE/target/scala-2.12/resolution-cache/reports/default-iotte_2.12-universal-src.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0m	report for default#iotte_2.12;0.1.0-SNAPSHOT docker produced in /Users/schneist/Documents/GitHub/IoTTE/target/scala-2.12/resolution-cache/reports/default-iotte_2.12-docker.xml[0m
 [0m[[0m[0mdebug[0m] [0m[0m	report for default#iotte_2.12;0.1.0-SNAPSHOT compile-internal produced in /Users/schneist/Documents/GitHub/IoTTE/target/scala-2.12/resolution-cache/reports/default-iotte_2.12-compile-internal.xml[0m
 [0m[[0m[0mdebug[0m] [0m[0m	report for default#iotte_2.12;0.1.0-SNAPSHOT runtime-internal produced in /Users/schneist/Documents/GitHub/IoTTE/target/scala-2.12/resolution-cache/reports/default-iotte_2.12-runtime-internal.xml[0m
 [0m[[0m[0mdebug[0m] [0m[0m	report for default#iotte_2.12;0.1.0-SNAPSHOT test-internal produced in /Users/schneist/Documents/GitHub/IoTTE/target/scala-2.12/resolution-cache/reports/default-iotte_2.12-test-internal.xml[0m
 [0m[[0m[0mdebug[0m] [0m[0m	report for default#iotte_2.12;0.1.0-SNAPSHOT plugin produced in /Users/schneist/Documents/GitHub/IoTTE/target/scala-2.12/resolution-cache/reports/default-iotte_2.12-plugin.xml[0m
 [0m[[0m[0mdebug[0m] [0m[0m	report for default#iotte_2.12;0.1.0-SNAPSHOT pom produced in /Users/schneist/Documents/GitHub/IoTTE/target/scala-2.12/resolution-cache/reports/default-iotte_2.12-pom.xml[0m
 [0m[[0m[0mdebug[0m] [0m[0m	report for default#iotte_2.12;0.1.0-SNAPSHOT scala-tool produced in /Users/schneist/Documents/GitHub/IoTTE/target/scala-2.12/resolution-cache/reports/default-iotte_2.12-scala-tool.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0m	resolve done (29ms resolve - 2ms download)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	resolve done (40ms resolve - 1ms download)[0m
 [0m[[0m[0minfo[0m] [0m[0mDone updating.[0m

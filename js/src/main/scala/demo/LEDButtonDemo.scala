@@ -1,16 +1,17 @@
 package demo
 
 import cats.implicits._
+import definitions.HttpDefinitions
 import definitions.J5Definitions._
 import dsl.elements.IoTOperation
 import dsl.interpreter.{IoTTaskInterpreter, MarshalledTaskInterpreter}
-import johnnyfivescalajs.{AbstractBinding, AndroidCompBindings}
+import fr.hmil.roshttp.HttpRequest
+import johnnyfivescalajs.AndroidCompBindings
 import monix.eval.Task
 import monix.execution.Scheduler.Implicits.global
 import python.runner.PythonRunner
 
 import scala.language.{higherKinds, implicitConversions, postfixOps}
-import scala.scalajs.js.UndefOr
 
 object Main2 {
   def main4(args: Array[String]): Unit = {
@@ -38,10 +39,21 @@ object Main2 {
 
       for {
 
-        button <- source(ButtonPin,sourceButtonDownLength,board)
-        subs <- sink[(Int,Double),Double]((LedPin,100),sinkBlinkLEDLength,board)
 
-      } yield button.subscribe(subs)
+
+
+        button <- source(ButtonPin,sourceButtonDownLength,board)
+
+
+
+
+
+
+
+
+
+
+        } yield button
 
     }
 

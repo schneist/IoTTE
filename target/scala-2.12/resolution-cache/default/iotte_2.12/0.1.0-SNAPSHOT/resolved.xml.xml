@@ -4,7 +4,7 @@
 		module="iotte_2.12"
 		revision="0.1.0-SNAPSHOT"
 		status="integration"
-		publication="20181123153922"
+		publication="20190122160609"
 	>
 		<description>
 		iotte
@@ -16,10 +16,6 @@
 		<conf name="test" visibility="public" description="" extends="runtime"/>
 		<conf name="provided" visibility="public" description=""/>
 		<conf name="optional" visibility="public" description=""/>
-		<conf name="universal" visibility="public" description=""/>
-		<conf name="universal-docs" visibility="public" description=""/>
-		<conf name="universal-src" visibility="public" description=""/>
-		<conf name="docker" visibility="public" description=""/>
 		<conf name="compile-internal" visibility="private" description="" extends="compile,optional,provided"/>
 		<conf name="runtime-internal" visibility="private" description="" extends="runtime,optional"/>
 		<conf name="test-internal" visibility="private" description="" extends="test,optional,provided"/>

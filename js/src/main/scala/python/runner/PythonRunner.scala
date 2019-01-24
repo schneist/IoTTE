@@ -2,13 +2,24 @@ package python.runner
 
 import monix.eval.Task
 import monix.execution.Scheduler
-import python.pythonshell.PythonShellS
+import python.pythonshell.PythonShellIO.PythonShellScalaIO
+import python.pythonshell.{ModeEnum, PythonShellOptions, PythonShellScala}
 import runners.MarshallingRunner
 
 
+class PythonRunner[Context]( implicit scheduler:Scheduler) extends MarshallingRunner[PythonShellScalaIO,Context ,String]{
 
-class PythonRunner[C]( implicit scheduler:Scheduler) extends MarshallingRunner[String,C ,String]{
+  import  python.pythonshell.PythonShellIO._
 
-
-  override def runInternal(inR: String, ctx: Option[C], definition: String): Task[String] = PythonShellS.run(definition)
+  override def runInternal(inR: PythonShellScalaIO, ctx: Option[Context], definition: String): Task[PythonShellScalaIO] = new PythonShellScala(ModeEnum.text).runTask(definition,PythonShellOptions.empty)
 }
+
+object PythonRunnerNoContext extends MarshallingRunner[PythonShellScalaIO,Unit ,String]{
+
+  import  python.pythonshell.PythonShellIO._
+
+  override def runInternal(inR: PythonShellScalaIO, ctx: Option[Unit], definition: String): Task[PythonShellScalaIO] = new PythonShellScala(ModeEnum.text).runTask(definition,PythonShellOptions.empty)
+
+
+}
+

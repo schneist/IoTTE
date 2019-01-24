@@ -39,9 +39,10 @@ class IoTTaskInterpreter[C] extends  IoTOperation[Task] {
       }
     }
   }
-  override def source[In, Out](input: In,
-                               operationDefinition: OperationDefinition[In, Out, (In, C) => Publisher[Out]],
-                               ctx: Context
+  override def source[In, Out](
+                                input: In,
+                                operationDefinition: OperationDefinition[In, Out, (In, C) => Publisher[Out]],
+                                ctx: Context
                               ): Task[Publisher[Out]] = {
     Task.pure(operationDefinition.definition(input,ctx))
   }
@@ -49,7 +50,8 @@ class IoTTaskInterpreter[C] extends  IoTOperation[Task] {
   override def sink[In, Out](
                               input: In,
                               operationDefinition: OperationDefinition[In, Out, (In, C) => Subscriber[Out]],
-                             ctx: C): Task[Subscriber[Out]] = {
+                              ctx: C
+                            ): Task[Subscriber[Out]] = {
     Task.pure(operationDefinition.definition(input,ctx))
   }
 }

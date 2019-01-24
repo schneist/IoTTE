@@ -36,7 +36,7 @@ class ElementsCompilerTest extends WordSpec with Matchers {
         for {
           a <- Run(1, divideby0)
           b <- Run(a, multby2)
-        }   yield b
+        }  yield b
 
       }
 

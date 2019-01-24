@@ -4,7 +4,7 @@
 		module="iotte$sources"
 		revision="0.1.0-SNAPSHOT"
 		status="integration"
-		publication="20181201165559"
+		publication="20190124082222"
 	/>
 	<configurations>
 		<conf name="compile" visibility="public" description=""/>
@@ -12,10 +12,6 @@
 		<conf name="test" visibility="public" description="" extends="runtime"/>
 		<conf name="provided" visibility="public" description=""/>
 		<conf name="optional" visibility="public" description=""/>
-		<conf name="universal" visibility="public" description=""/>
-		<conf name="universal-docs" visibility="public" description=""/>
-		<conf name="universal-src" visibility="public" description=""/>
-		<conf name="docker" visibility="public" description=""/>
 		<conf name="compile-internal" visibility="private" description="" extends="compile,optional,provided"/>
 		<conf name="runtime-internal" visibility="private" description="" extends="runtime,optional"/>
 		<conf name="test-internal" visibility="private" description="" extends="test,optional,provided"/>
